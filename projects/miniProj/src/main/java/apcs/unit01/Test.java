@@ -1,4 +1,4 @@
-package main.java.apcs.unit01;
+package apcs.unit01;
 
 public class Test {
     public static void main(String[] args) {

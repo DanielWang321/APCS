@@ -1,4 +1,4 @@
-package main.java.apcs.projecttemplate;
+package apcs.projecttemplate;
 
 public class Main {
     public static void main(String[] args) {
