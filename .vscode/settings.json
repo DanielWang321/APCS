@@ -1,0 +1,7 @@
+{
+  "java.project.sourcePaths": [
+    "templates/JavaProjectTemplate/src/main/java",
+    "projects/miniProj/src/main/java"
+  ],
+  "java.project.outputPath": "out"
+}
