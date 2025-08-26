@@ -28,11 +28,22 @@ fix me
     4. constants (enums) in all caps
     5. identifier names should be meaningful
  */
-public class notes_1_1 //class header
+public class Notes_1_1 //class header
 { 
     //public: access modifier, accessed by other class
     //class: type we are creating
     //notes_1_1 is name of class
+    public static void main(String[] args){
+        //static: not an instance function, not intended to be called on a particular object
+            //but perform on a generic operation
+        //void: return type of function, void means that its not returning anything
+        //inside () is parameter list: what function needs to do its job
+        System.out.println("hello world"); //prints characters to console with newline
+        System.out.print("My name is Daniel"); //prints characters to console w/o newline
+        System.out.println(" I am 16 years old");
+        System.out.println("other");
+        
+    }
 
 }//braces define class body
 
