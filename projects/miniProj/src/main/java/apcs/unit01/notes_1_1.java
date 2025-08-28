@@ -28,6 +28,17 @@ fix me
     4. constants (enums) in all caps
     5. identifier names should be meaningful
  */
+
+ // \n makes a new line within a string
+// \t creates a tab
+// \\ - \ in output stream
+// \" - allows for " in output stream
+/*
+Type of errors:
+1. Syntax error: u broke one of the rules of the language, occurs at COMPILE time
+2. Run time error -  in Java called an exception. This means your program compiles fine, runs to a point, but then crashes
+3. Logic Error - program compiles and runs but doesn't behave the way its supposed to
+*/
 public class Notes_1_1 //class header
 { 
     //public: access modifier, accessed by other class
