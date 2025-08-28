@@ -65,12 +65,14 @@ System.out.println("This\tis a \"crazy\"\nline/nof text\\!");
 Example 2:
 System.out.print("\"Welcome//to APCS!\nLet's have a great year!\""
 System.out.println(" -Said someone :\\")
+
 fix me:
-public class Note_1_1
+public class Notes_1_1
 {
-public static vod main(String[ args)
-{
-system.out.printl(Hello World!);
-system.out.pint("Welcome to APCS :)")
+    public static void main(String[] args)
+    {
+        System.out.println("Hello World!");
+        System.out.print("Welcome to APCS :)");
+    }
 }
 */
