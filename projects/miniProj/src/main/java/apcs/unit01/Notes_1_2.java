@@ -31,22 +31,23 @@ printing (values of) variables vs. printing literals
 final
 concatenation - an operation performed with the +, a String operand, and any other
 type of operand
-int x = 4 + 6; //x has the value of
-String stringX = "4" + "6"; //stringX has the value of
-String result = x + ""; //result has the value of
-String result2 = x + "4"; //result2 has the value of
+int x = 4 + 6; //x has the value of 10
+String stringX = "4" + "6"; //stringX has the value of "46"
+String result = x + ""; //result has the value of "10"
+String result2 = x + "4"; //result2 has the value of "104"
 1.2 questions w/ a partner
 */
 public class Notes_1_2{
     public static void main(String[]args){
         //variable declarations
         int numOfDesks;
-        double height, weight, shoeSize;
+        double height, weight, shoeSize;    
         char letterGrade = 65;
+        String s = "3";
         boolean passed = true, isFemale = false, hasSibiling;
         System.out.println(letterGrade);
         System.out.println(4);//prints 4
-
+        
     }
 }
 
