@@ -2,6 +2,10 @@ package apcs.unit01;
 
 public class Test {
     public static void main(String[] args) {
-        System.out.println("Hello world");
+        System.out.print("AP");
+        //System.out.println();
+        System.out.println("CS");
+        System.out.print("A");
+
     }
 }

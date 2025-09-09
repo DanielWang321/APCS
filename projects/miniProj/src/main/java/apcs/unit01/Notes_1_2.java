@@ -37,17 +37,16 @@ String result = x + ""; //result has the value of "10"
 String result2 = x + "4"; //result2 has the value of "104"
 1.2 questions w/ a partner
 */
-public class Notes_1_2{
-    public static void main(String[]args){
-        //variable declarations
+public class Notes_1_2 {
+    public static void main(String[] args) {
+        // variable declarations
         int numOfDesks;
-        double height, weight, shoeSize;    
+        double height, weight, shoeSize;
         char letterGrade = 65;
         String s = "3";
         boolean passed = true, isFemale = false, hasSibiling;
         System.out.println(letterGrade);
-        System.out.println(4);//prints 4
-        
+        System.out.println(4);// prints 4
+
     }
 }
-
