@@ -18,7 +18,7 @@ Terms to know: constructor, return type, instance, object
 //AND only output two words for their band name/rock star name
 */
 import java.util.Scanner; //import only scanner class from util package
-import java.util.*; //imports all classses in util package. 
+//import java.util.*; //imports all classses in util package. 
 
 public class StandardInput {
     public static void main(String[] args) {

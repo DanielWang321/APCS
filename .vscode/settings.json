@@ -3,5 +3,6 @@
     "templates/JavaProjectTemplate/src/main/java",
     "projects/miniProj/src/main/java"
   ],
-  "java.project.outputPath": "out"
+  "java.project.outputPath": "out",
+  "github.copilot.nextEditSuggestions.enabled": false
 }
