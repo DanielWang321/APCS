@@ -4,5 +4,7 @@
     "projects/miniProj/src/main/java"
   ],
   "java.project.outputPath": "out",
-  "github.copilot.nextEditSuggestions.enabled": false
+  "github.copilot.nextEditSuggestions.enabled": false,
+  "github.copilot.editor.enableAutoCompletions": false
+
 }
