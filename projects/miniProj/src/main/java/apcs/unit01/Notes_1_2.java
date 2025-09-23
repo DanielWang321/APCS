@@ -47,6 +47,6 @@ public class Notes_1_2 {
         boolean passed = true, isFemale = false, hasSibiling;
         System.out.println(letterGrade);
         System.out.println(4);// prints 4
-
+        
     }
 }

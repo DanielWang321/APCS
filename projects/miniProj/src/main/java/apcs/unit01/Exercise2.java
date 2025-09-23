@@ -36,34 +36,20 @@ public class Exercise2 {
         int sum = numericalNum2 + numericalNum1;
         System.out.println("num 2: " + numericalNum2);
         System.out.println("Result" + sum);
-        //CONVERTING NUMERICAL TO BINARY
-        boolean highestBinaryDigitFound = false;
-        int n = 0;
-        int digit = 0;
-        while(highestBinaryDigitFound == false){
-            digit = (int)Math.pow(2,n);
-            
-            n++;
-            if ((sum/digit)!=0){
-                highestBinaryDigitFound = false;
-            }else if((sum/digit)==0){
-                highestBinaryDigitFound = true;
+        // Convert sum to binary string
+        String binaryResult;
+        if (sum == 0) {
+            binaryResult = "0";
+        } else {
+            StringBuilder sb = new StringBuilder();
+            int value = sum;
+            while (value > 0) {
+                sb.append(value % 2);
+                value /= 2;
             }
-            
-            System.out.println(highestBinaryDigitFound);
+            binaryResult = sb.reverse().toString();
         }
-        int numOfBinaryDigits = n-1;
-        boolean finishedConverting = false;
-        ArrayList <String> binaryList = new ArrayList<>();
-
-        n=n-1;
-        while(finishedConverting = false){
-            if (sum%2 == 1){
-                binaryList.add("1");
-            }else{
-                binaryList.add("0");
-            }
-        }
-        System.out.println(binaryList);
+        System.out.println("Binary Result: " + binaryResult);
+        sc.close();
     }
 }

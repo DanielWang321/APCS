@@ -57,10 +57,10 @@ public class StandardInput {
          */
         Scanner sc = new Scanner(System.in);
         System.out.println("What is street: ");
-        String streetName = sc.next();
-        sc.nextLine();
+        String streetName = sc.nextLine();
+        //sc.nextLine();
         System.out.println("What is pet: ");
-        String petName = sc.next();
+        String petName = sc.nextLine();
         String bandName = streetName + " " + petName;
         System.out.println(bandName);
         sc.close();
