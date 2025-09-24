@@ -2,8 +2,6 @@ package apcs.unit02;
 
 import java.util.Scanner;
 
-import javax.swing.event.SwingPropertyChangeSupport;
-
 public class ConditionalExercises {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
