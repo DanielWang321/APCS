@@ -115,23 +115,36 @@ public class Notes_2_2and3 {
             System.out.println("Invalid");
             return;
         }
-        System.out.println("Enter pay per hour");
-        hourlyPay = sc.nextDouble();
-        if (hourlyPay < 0) { // bad input for hourly rate
-            System.out.println("Invalid input");
-            return;
+        boolean isHourlyWorker = payTypeInput == 2;
+        //
+        if (isHourlyWorker) {
+            System.out.println("Enter pay per hour");
+            hourlyPay = sc.nextDouble();
+            if (hourlyPay < 0) { // bad input for hourly rate
+                System.out.println("Invalid input");
+                return;
+            }
+            System.out.println("Enter hours: ");
+            hours = sc.nextDouble();
+            if (hours < 0 || hours > 168) { // bad input for amt of hours
+                System.out.println("Invalid amount of hours");
+                return;
+            }
+            if (hours > 40) {
+                weeklyPay = ((hours - 40) * 1.5 + 40) * hourlyPay;
+            } else {
+                weeklyPay = hours * hourlyPay;
+            }
+        } else {// salaried worker
+            System.out.println("Please enter annual salary: ");
+            annualSalary = sc.nextDouble();
+            if (annualSalary < 0) {
+                System.out.println("Invalid Input");
+                return;
+            }
+            weeklyPay = annualSalary / 52;
         }
-        System.out.println("Enter hours: ");
-        hours = sc.nextDouble();
-        if (hours < 0 || hours > 168) { // bad input for amt of hours
-            System.out.println("Invalid amount of hours");
-            return;
-        }
-        if (hours > 40) {
-            weeklyPay = ((hours - 40) * 1.5 + 40) * hourlyPay;
-        } else {
-            weeklyPay = hours * hourlyPay;
-        }
+
         System.out.println("Paycheck this week: " + df.format(weeklyPay));
 
     }
