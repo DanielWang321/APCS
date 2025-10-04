@@ -6,6 +6,7 @@ public class Unit2Project3 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
+        
         System.out.println("Input Number: ");
         int number = sc.nextInt();
         String day = "";
