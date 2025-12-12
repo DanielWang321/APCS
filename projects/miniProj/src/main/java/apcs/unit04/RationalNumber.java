@@ -70,8 +70,12 @@ public class RationalNumber implements Comparable<RationalNumber> {
         return ((double) p / q);
     }
 
-    public boolean equals(RationalNumber other) {
-        return this.p == other.p && this.q == other.q;
+    public boolean equals(Object other) {
+        if (!(other instanceof RationalNumber)) {
+            return false;
+        }
+        RationalNumber otherRationalNumber = (RationalNumber) other;
+        return this.p == otherRationalNumber.p && this.q == otherRationalNumber.q;
     }
 
     public String toString() {
@@ -92,6 +96,9 @@ public class RationalNumber implements Comparable<RationalNumber> {
         } else {
             return 0;
         }
+    }
 
+    public RationalNumber abs() {
+        return new RationalNumber(Math.abs(p), Math.abs(q));
     }
 }
