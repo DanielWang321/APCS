@@ -1,0 +1,12 @@
+Month			TotalSales
+
+January			$1,600.50
+February		$1,000.00
+May				$6,820.80
+June			$2,370.30
+August			$100.51
+October			$2,000.00
+November		$2,200.00
+December		$2,400.20
+
+May had the highest sales with a total of $6,820.80
