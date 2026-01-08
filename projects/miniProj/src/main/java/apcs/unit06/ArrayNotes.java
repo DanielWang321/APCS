@@ -55,19 +55,19 @@ public class ArrayNotes {
         System.out.println(Arrays.toString(nums));
         System.out.println(countEvens(nums));
         System.out.println(findMinElement(nums));
-        squareContents(nums);
+        //squareContents(nums);
         System.out.println(Arrays.toString(nums));
 
-        double[] decs = {1.1,2.2,3.3,4,5,6.7,7};
+        double[] decs = { 1.1, 2.2, 3.3, 4, 5, 6.7, 7 };
         System.out.println(Arrays.toString(decs));
-        swap(decs,0,1);
+        swap(decs, 0, 1);
         System.out.println(Arrays.toString(decs));
-        double a =42, b = 24;
+        double a = 42, b = 24;
         System.out.println("a is " + a + " b is " + b);
-        swap(a,b);
+        swap(a, b);
         System.out.println("a is " + a + " b is " + b);
-
-
+        System.out.println(getRange(nums));
+        System.out.println(getMaxJump(nums));
     }
 
     // precondition: fileName is a .txt file that contains exactly n integers
@@ -95,88 +95,144 @@ public class ArrayNotes {
         }
         return count;
     }
-    //pre: arr.length > 0
-    //post: arr is unchanged
-    //returns value of minimum element in arr
-    public static int findMinElement(int[] arr){
+
+    // pre: arr.length > 0
+    // post: arr is unchanged
+    // returns value of minimum element in arr
+    public static int findMinElement(int[] arr) {
         int minElement = Integer.MAX_VALUE;
         for (int i : arr) {
-            if (i<minElement){
+            if (i < minElement) {
                 minElement = i;
             }
         }
 
         return minElement;
     }
-    //pre: arr.length >0
-    //post: arr is unchanged
-    //returns index of the first occurrence of the min element in arr
-    public static int findMinIndex(int[] arr){
+
+    // pre: arr.length >0
+    // post: arr is unchanged
+    // returns index of the first occurrence of the min element in arr
+    public static int findMinIndex(int[] arr) {
         int minIndex = 0;
-        for(int i=0; i<arr.length;i++){
-            if(arr[i]<arr[minIndex]){
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] < arr[minIndex]) {
                 minIndex = i;
             }
         }
         return minIndex;
     }
-    //post: every element in arr has been squared 
-    public static void squareContents(int[] arr){
-        for (int i =0; i<arr.length; i+=1){
-            arr[i] = arr[i]*arr[i];
+
+    // post: every element in arr has been squared
+    public static void squareContents(int[] arr) {
+        for (int i = 0; i < arr.length; i += 1) {
+            arr[i] = arr[i] * arr[i];
         }
-        
+
     }
-    //precondition: i and j are in bounds
-    //post: arr[i] and arr[j] have been swapped
-    public static void swap(double[] arr, int i, int j){
+
+    // precondition: i and j are in bounds
+    // post: arr[i] and arr[j] have been swapped
+    public static void swap(double[] arr, int i, int j) {
         double temp = arr[j];
         arr[j] = arr[i];
         arr[i] = temp;
     }
-    public static void swap(double x, double y){
+
+    public static void swap(double x, double y) {
         System.out.println("x is " + x + " y is " + y);
         double temp = y;
-        y=x;
-        x=temp;
+        y = x;
+        x = temp;
         System.out.println("x is " + x + " y is " + y);
 
     }
-    //post: ar is unchanged
-    //returns sum
-    public static double getSum(double[] arr){
+
+    // post: ar is unchanged
+    // returns sum
+    public static double getSum(double[] arr) {
         double sum = 0;
         for (double d : arr) {
-            sum+=d;
+            sum += d;
         }
         return sum;
     }
-    public static double getSum2(double[] arr){
+
+    public static double getSum2(double[] arr) {
         double sum = 0;
-        for(int i = 0;i< arr.length;i++){
+        for (int i = 0; i < arr.length; i++) {
             sum += arr[i];
         }
         return sum;
     }
 
-    public static double getAverage(double[] arr){
-        double avg = getSum(arr)/arr.length;
-        return(avg);
+    public static double getAverage(double[] arr) {
+        double avg = getSum(arr) / arr.length;
+        return (avg);
     }
 
-    public static int getIndexOfFirstElement(double[] arr, double element){
-        for(int i = 0; i<arr.length;i++){
-            if (arr[i] == element){
+    public static int getIndexOfFirstElement(double[] arr, double element) {
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == element) {
                 return i;
             }
         }
         return -1;
     }
 
+    // returns a deep copy of ar
+    public static double[] getDeepCopy(double[] ar) {
+        double[] newAr = new double[ar.length];
+        for (int i = 0; i < ar.length; i++) {
+            newAr[i] = ar[i];
+        }
+        return newAr;
+    }
 
+    // ar not changed
+    public static int[] getReverseArray(int[] ar) {
+        int[] newAr = new int[ar.length];
+        for (int i = 0; i < ar.length; i++) {
+            newAr[ar.length - i - 1] = ar[i];
+        }
+        return newAr;
+    }
 
+    public static boolean isAscending(double[] ar){
+        for(int i = 0; i< ar.length-1; i++){
+            if (ar[i]>=ar[i+1]){
+                return false;  
+            }
+        }
+        return true;
+    }
+    //post: ar unchanged
+    //returns difference between max and min elements in ar
+    public static int getRange(int[] ar){
+        int max = ar[0];
+        int min = ar[0];
+        for (int k : ar) {
+            if (k>max){
+                max = k;
+            }
+            if (k<min){
+                min = k;
+            }
+        }
+        return max-min;
+    }
+    //post: ar unchanged
+    //returns magnitude of the largest difference between consecutive elements
+    public static int getMaxJump(int[] ar){
+        int maxJump = -1;
+        for (int i = 0; i<ar.length-1;i++)
+            if(Math.abs(ar[i+1]-ar[i])>maxJump)
+                maxJump = Math.abs(ar[i+1]-ar[i]);
+        return maxJump;
 
+    }
 }
+
 /*
  * EXAMPLES
  * 1. write a function that returns an array filled with numbers from a file
