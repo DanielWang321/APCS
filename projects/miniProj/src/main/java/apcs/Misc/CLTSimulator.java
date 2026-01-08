@@ -3,7 +3,6 @@ package apcs.Misc;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Arrays;
-//histogram of the results of a simulation of the central limit theorem
 public class CLTSimulator {
     public static void main(String[] args) {
         
