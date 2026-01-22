@@ -14,8 +14,19 @@ public class Keno {
         while (decidePlayAgain == 1) {
             System.out.println("You have " + bal + ", How much would you like to bet? ");
             double bet = sc.nextDouble();
+            while (bet > bal || bet <= 0) {
+                while (bet > bal) {
+                    System.out.println("You cant bet more than ur bal. Enter again");
+                    bet = sc.nextDouble();
+                }
+                while (bet <= 0) {
+                    System.out.println("You cant bet negative. Enter again");
+                    bet = sc.nextDouble();
+                }
+            }
             int[] userNumbers = getUserInput();
             int[] computerNumbers = generateComputerNumbers();
+            Arrays.sort(computerNumbers);
             int numOfMatches = check(userNumbers, computerNumbers);
             bal -= bet;
             bal += winMatch(numOfMatches, bet);

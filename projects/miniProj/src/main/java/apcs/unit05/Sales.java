@@ -1,3 +1,5 @@
+package apcs.unit05;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
@@ -6,8 +8,8 @@ import java.text.DecimalFormat;
 
 public class Sales {
     public static void main(String[] args) throws FileNotFoundException {
-        File inputFile = new File("data/sales.txt");
-        File outputFile = new File("data/salesData.txt");
+        File inputFile = new File("projects\\miniProj\\data\\sales.txt");
+        File outputFile = new File("projects\\miniProj\\data\\salesData.txt");
         Scanner fScan = new Scanner(inputFile);
         PrintWriter pw = new PrintWriter(outputFile);
         DecimalFormat df = new DecimalFormat("$#,###.00");
