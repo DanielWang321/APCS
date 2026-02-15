@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Transfer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f2f5;
+            overflow: hidden; 
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            /* Pushes the text up slightly to make more room */
+            margin-bottom: 50px; 
+            z-index: 1; /* Ensures text stays 'under' the button if it flies over */
+        }
+
+        #downloadBtn {
+            padding: 15px 40px;
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            
+            /* Initial Positioning */
+            position: absolute; 
+            top: 60%; /* This starts the button lower down the screen */
+            left: 50%;
+            /* This ensures the button is perfectly centered relative to that spot */
+            transform: translate(-50%, -50%); 
+            
+            transition: top 0.15s, left 0.15s; 
+        }
+
+        #downloadBtn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Your file is ready to download.</h1>
+    <button id="downloadBtn">Download "Kaplan ACT 2024"</button>
+
+    <script>
+        const button = document.getElementById('downloadBtn');
+
+        const moveButton = () => {
+            // On the very first move, we need to remove the CSS centering 'transform'
+            // Otherwise the math for the random position will be slightly off
+            button.style.transform = "none";
+
+            // Get window dimensions
+            const windowHeight = window.innerHeight;
+            const windowWidth = window.innerWidth;
+
+            // Get button dimensions
+            const btnHeight = button.offsetHeight;
+            const btnWidth = button.offsetWidth;
+
+            // Calculate random positions
+            const randomY = Math.floor(Math.random() * (windowHeight - btnHeight));
+            const randomX = Math.floor(Math.random() * (windowWidth - btnWidth));
+
+            // Apply new positions
+            button.style.top = `${randomY}px`;
+            button.style.left = `${randomX}px`;
+        };
+
+        button.addEventListener('mouseover', moveButton);
+        
+        // For mobile support
+        button.addEventListener('touchstart', (e) => {
+            e.preventDefault();
+            moveButton();
+        });
+
+    </script>
+</body>
+</html>
