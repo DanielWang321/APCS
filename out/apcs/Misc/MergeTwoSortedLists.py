@@ -8,11 +8,9 @@ def MergeSortedLists(list1, list2):
             if (list1[i] <= list2[j]):
                 result.append(list1[i])
                 del list1[i]
-                #i+=1
             else:
                 result.append(list2[j])
                 del list2[j]
-                #j+=1
     result.extend(list2)
     result.extend(list1)
     return result

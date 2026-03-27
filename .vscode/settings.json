@@ -5,6 +5,7 @@
   ],
   "java.project.outputPath": "out",
   "github.copilot.nextEditSuggestions.enabled": false,
-  "github.copilot.editor.enableAutoCompletions": false
+  "github.copilot.editor.enableAutoCompletions": false,
+  "java.debug.settings.onBuildFailureProceed": true
 
 }

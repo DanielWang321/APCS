@@ -4,7 +4,8 @@ import java.io.FileNotFoundException;
 
 public class TSPTestClient {
     public static void main (String[] args) throws FileNotFoundException{
-        TSP arr = new TSP("projects\\miniProj\\data\\TSPdata.txt");
-        System.out.println(arr);
+        TSP path = new TSP("projects\\miniProj\\data\\TSPData.txt");
+        path.applyDoubleNeighborHeuristic();
+        
     }
 }
