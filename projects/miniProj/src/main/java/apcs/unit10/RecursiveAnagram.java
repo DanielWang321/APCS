@@ -1,6 +1,6 @@
 package apcs.unit10;
 
-public class OneDProblem {
+public class RecursiveAnagram {
     public static void main(String[] args) {
 
         System.out.println("anagram 4: " + isAnagram("tooth", "hooth"));

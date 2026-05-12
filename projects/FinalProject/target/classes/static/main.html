@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Java Webpage</title>
+</head>
+<body>
+  <h1>Java Calculator</h1>
+
+  <input id="num1" type="number">
+  <input id="num2" type="number">
+
+  <button onclick="addNumbers()">Add</button>
+
+  <p id="result"></p>
+
+  <script>
+    async function addNumbers() {
+      const a = document.getElementById("num1").value;
+      const b = document.getElementById("num2").value;
+
+      const response = await fetch(`/add?a=${a}&b=${b}`);
+      const answer = await response.text();
+
+      document.getElementById("result").innerText = "Result: " + answer;
+    }
+  </script>
+</body>
+</html>
