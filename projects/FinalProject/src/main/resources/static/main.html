@@ -1,28 +1,46 @@
+<!-- HTML FULLY CODED BY CHATGPT-->
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Java Webpage</title>
 </head>
+
 <body>
-  <h1>Java Calculator</h1>
-
-  <input id="num1" type="number">
-  <input id="num2" type="number">
-
-  <button onclick="addNumbers()">Add</button>
+  <h1>Quiz generator</h1>
+  <form>
+    <label for="numQuestions">Number of questions </label>
+    <input type="text" id="numQuestions" name="numQuestions" size="5"><br><br>
+    <label for="numChoices">Number of choices </label>
+    <input type="text" id="numChoices" name="numChoices" maxlength="10" size="5"><br><br>
+    <label for="notes">Notes: </label>
+    <textarea id="notes" name="notes" rows="10" cols="30"></textarea>
+  </form>
+  <button onclick="send()">Send</button>
 
   <p id="result"></p>
 
   <script>
-    async function addNumbers() {
-      const a = document.getElementById("num1").value;
-      const b = document.getElementById("num2").value;
+    async function send() {
+      const numQuestions = document.getElementById("numQuestions").value;
+      const numChoices = document.getElementById("numChoices").value;
+      const notes = document.getElementById("notes").value;
 
-      const response = await fetch(`/add?a=${a}&b=${b}`);
-      const answer = await response.text();
+      const response = await fetch("/api/message", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          name: name,
+          message: message
+        })
+      })
+      const data = await response.json();
 
-      document.getElementById("result").innerText = "Result: " + answer;
+      document.getElementById("result").innerText = data.reply;
     }
   </script>
 </body>
+
 </html>

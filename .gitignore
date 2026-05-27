@@ -25,3 +25,6 @@ replay_pid*
 
 #Miscellaneous files
 Misc/
+
+#config files
+*.properties
