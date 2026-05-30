@@ -1,5 +1,6 @@
 package apcs.app;
 
+import java.io.FileNotFoundException;
 import java.util.Map;
 
 import org.springframework.web.bind.annotation.GetMapping;
@@ -16,15 +17,14 @@ public class MessageController {
     }
 
     @PostMapping("/api/message")
-    public Map<String, String> receiveMessage(@RequestBody MessageRequest request) {
-        String name = request.getName();
-        String message = request.getMessage();
-
-        System.out.println("Name: " + name);
-        System.out.println("Message: " + message);
+    public Map<String, String> receiveMessage(@RequestBody MessageRequest request) throws FileNotFoundException {
+        int numQuestions = request.getNumQuestions();
+        int numChoices = request.getNumChoices();
+        String notes = request.getNotes();
+        
+        String outputFile = Main.notesToQuestions(numQuestions, numChoices, notes);
 
         return Map.of(
-                "reply", "Java received your message, " + name + ": " + message
-        );
+                "reply", Main.fileToString(outputFile));
     }
 }

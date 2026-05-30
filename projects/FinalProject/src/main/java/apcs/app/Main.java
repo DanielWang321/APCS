@@ -5,26 +5,32 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
-import java.nio.file.*;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Properties;
 import java.util.Scanner;
 
-import com.google.genai.Client;
-import com.google.genai.types.GenerateContentResponse;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import com.google.genai.Client;
+import com.google.genai.types.GenerateContentResponse;
+
 @SpringBootApplication
 public class Main {
-    public static void main(String[] args) throws FileNotFoundException {
+
+    public static void main(String[] args) {
         SpringApplication.run(Main.class, args);
+    }
+
+    public static String notesToQuestions(int numQuestions, int numChoices, String notes) throws FileNotFoundException {
+        System.out.println("running");
         String apiKey = getApiKey();
-        String inputFileName = "projects\\FinalProject\\data\\inputFile.txt";
-        String outputFileName = "projects\\FinalProject\\data\\outputFile.txt";
+        String inputFileName = saveStringToFile(notes, true);
         String model = "gemini-3.5-flash";
         Client client = Client.builder().apiKey(apiKey).build();
-        int numQuestions = 5;
-        int numChoices = 4;
         String format = """
                 QUESTION NUMBER
                 QUESTION
@@ -43,36 +49,26 @@ public class Main {
                 2
                                                 """;
         String prompt = "turn these notes into " + numQuestions + " multiple choice questions with " + numChoices
-                + " choices per question. \nFollow this exact format:\n" + format + "\n\nNotes: \n" + getInput(inputFileName);
+                + " choices per question. \nFollow this exact format:\n" + format + "\n\nNotes: \n"
+                + fileToString(inputFileName);
         GenerateContentResponse response = client.models.generateContent(model, prompt, null);
         System.out.println(response.text());
-        writeResponseToFile(response.text(), outputFileName);
+        return saveStringToFile(response.text(), false);
     }
 
-    public static String convertToNotes(int numQuestions, int numChoices ){
-        return "";
-    }
-
-    public static String getInput(String fileName) throws FileNotFoundException {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("File or Paste:");
-        String inputType = sc.nextLine(); // type of input (file or copy/paste)
-        String userInput = """
-                """;
-
-        if (inputType.equals("File")) {
-            Scanner fScan = new Scanner(new File(fileName));
-            while (fScan.hasNextLine()) {
-                userInput += fScan.nextLine() + "\n";
-            }
+    public static String fileToString(String fileName) throws FileNotFoundException {
+        String strOutput = "";
+        Scanner fScan = new Scanner(new File(fileName));
+        while (fScan.hasNextLine()) {
+            strOutput += fScan.nextLine() + "\n";
         }
-        return userInput;
+        return strOutput;
     }
 
     // HELPED BY GOOGLE AI OVERVIEW: https://share.google/aimode/F4j392uGTxxAnUFyp
     public static String getApiKey() throws FileNotFoundException {
         Properties prop = new Properties();
-        InputStream input = new FileInputStream("config.properties");
+        InputStream input = new FileInputStream("projects\\FinalProject\\config.properties");
         try {
             prop.load(input);
         } catch (IOException e) {
@@ -82,17 +78,44 @@ public class Main {
 
     public static void writeResponseToFile(String response, String fileName) {
         try {
-            Files.writeString(Paths.get(fileName),response);
+            Files.writeString(Paths.get(fileName), response);
             System.out.println("response saved");
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
-    public static void parseOutput(String output){
+    public static void parseOutput(String output) {
 
     }
 
+    // https://share.google/aimode/ek8I5OZM6Yr3Ifnpg
+    // type true: user input
+    // type false: gemini output
+    public static String saveStringToFile(String userInput, boolean type) {
+        LocalDateTime now = LocalDateTime.now();
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd_HH-mm-ss-SSS");
+        String formatted = now.format(formatter);
+        if (type) {
+            try {
+                Files.writeString(Paths.get("projects\\FinalProject\\data\\userInput" + formatted + ".txt"), userInput);
+                System.out.println("wrote to input file");
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            return "projects\\FinalProject\\data\\userInput" + formatted + ".txt";
+        } else {
+            try {
+                Files.writeString(Paths.get("projects\\FinalProject\\data\\geminiOutput" + formatted + ".txt"),
+                        userInput);
+                System.out.println("wrote output file");
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            return "projects\\FinalProject\\data\\geminiOutput" + formatted + ".txt";
+        }
+    }
+
+    
 
 }
-
