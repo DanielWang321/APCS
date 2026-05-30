@@ -192,7 +192,12 @@
       const numChoices = document.getElementById("numChoices").value;
       const notes = document.getElementById("notes").value;
 
-      const response = await fetch("https://harvest-oversight-tropics.ngrok-free.dev/api/message", {
+      const API_BASE =
+        location.hostname === "localhost" || location.hostname === "127.0.0.1"
+          ? ""
+          : "https://harvest-oversight-tropics.ngrok-free.dev";
+
+      const response = await fetch(`${API_BASE}/api/message`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json"

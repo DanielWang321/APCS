@@ -68,7 +68,7 @@ public class Main {
     // HELPED BY GOOGLE AI OVERVIEW: https://share.google/aimode/F4j392uGTxxAnUFyp
     public static String getApiKey() throws FileNotFoundException {
         Properties prop = new Properties();
-        InputStream input = new FileInputStream("projects\\FinalProject\\config.properties");
+        InputStream input = new FileInputStream("C:\\Users\\techadmin\\Documents\\GithubProj\\APCS\\projects\\FinalProject\\config.properties");
         try {
             prop.load(input);
         } catch (IOException e) {
