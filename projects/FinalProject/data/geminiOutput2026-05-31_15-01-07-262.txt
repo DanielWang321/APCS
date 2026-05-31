@@ -1,0 +1,59 @@
+{
+    "questions": [
+        {
+            "question": "Which of the following correctly follows MLA formatting guidelines for an in-text citation of a novel when the author's name is not mentioned in the sentence?",
+            "choices": [
+                "(Salinger, 193)",
+                "(Salinger 193)",
+                "Salinger 193",
+                "(193 Salinger)"
+            ],
+            "answerIndex": 1,
+            "explanation": "MLA format for a novel citation when the author is not named in the sentence is (Author Page) with no comma between them."
+        },
+        {
+            "question": "According to the notes, which of the following is considered a 'be verb' that should be limited in formal writing?",
+            "choices": [
+                "Run",
+                "Create",
+                "Become",
+                "Show"
+            ],
+            "answerIndex": 2,
+            "explanation": "The notes list 'become' as one of the 'be verbs' to watch for and limit to 5 or fewer in an essay."
+        },
+        {
+            "question": "How should a block quotation be formatted in an MLA paper?",
+            "choices": [
+                "Indented 0.5 inches from the left margin, no quotation marks, with the period before the citation.",
+                "Indented 1 inch from the left margin, enclosed in quotation marks, with the period after the citation.",
+                "Indented 0.5 inches from the left margin, enclosed in quotation marks, with the period before the citation.",
+                "Flush with the left margin, no quotation marks, with the period after the citation."
+            ],
+            "answerIndex": 0,
+            "explanation": "Block quotations are indented 0.5 inches, do not use quotation marks, and the punctuation remains with the quote before the citation."
+        },
+        {
+            "question": "Which of the following is the correct definition of an epistrophe?",
+            "choices": [
+                "Repetition of a word or phrase at the beginning of successive clauses or lines.",
+                "Repetition of a word or phrase at the end of successive clauses or lines.",
+                "A comparison of two unlike things using like or as.",
+                "Giving human qualities to something nonhuman."
+            ],
+            "answerIndex": 1,
+            "explanation": "Epistrophe is the repetition of a word or phrase at the end of successive clauses or lines."
+        },
+        {
+            "question": "What is the primary purpose of the 'Reasoning' (R) section in a CER body paragraph?",
+            "choices": [
+                "To introduce the topic sentence of the paragraph.",
+                "To provide specific quotes or examples from the text.",
+                "To further explain the claim and lead toward the evidence.",
+                "To explain why the evidence proves the claim and thesis using 'Says, Means, Matters'."
+            ],
+            "answerIndex": 3,
+            "explanation": "The Reasoning section explains why the evidence supports the claim and thesis, typically following the 'Says, Means, Matters' structure."
+        }
+    ]
+}
