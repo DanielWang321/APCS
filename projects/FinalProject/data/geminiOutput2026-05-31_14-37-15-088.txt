@@ -1,0 +1,59 @@
+{
+    "questions": [
+        {
+            "question": "Which of the following is the correct format for an MLA in-text citation for a novel when the author's name is NOT included in the sentence?",
+            "choices": [
+                "(Author, Page)",
+                "(Author Page)",
+                "Author (Page)",
+                "Author, Page"
+            ],
+            "answerIndex": 1,
+            "explanation": "MLA format for a novel citation without the author named in the sentence is (Author Page) with no comma."
+        },
+        {
+            "question": "According to the study guide, how should the title of a novel be formatted when typing an essay?",
+            "choices": [
+                "In quotation marks",
+                "Underlined",
+                "Italicized",
+                "Bolded"
+            ],
+            "answerIndex": 2,
+            "explanation": "Novels are major works and should be italicized when typed (underlined if handwritten)."
+        },
+        {
+            "question": "What does the 'R' in the CER body paragraph structure stand for?",
+            "choices": [
+                "Review",
+                "Reference",
+                "Result",
+                "Reasoning"
+            ],
+            "answerIndex": 3,
+            "explanation": "CER stands for Claim, Claim Clarification, Evidence, and Reasoning."
+        },
+        {
+            "question": "Which sentence correctly fixes a comma splice?",
+            "choices": [
+                "The dog barked, it was loud.",
+                "The dog barked; it was loud.",
+                "The dog barked it was loud.",
+                "The dog barked, and, it was loud."
+            ],
+            "answerIndex": 1,
+            "explanation": "A comma splice occurs when two complete sentences are joined by only a comma. Using a semicolon is a correct way to fix this."
+        },
+        {
+            "question": "What is the correct definition of Ethos in persuasive writing?",
+            "choices": [
+                "An appeal to emotion",
+                "An appeal to logic",
+                "An appeal to credibility and trust",
+                "An appeal to humor and anecdotes"
+            ],
+            "answerIndex": 2,
+            "explanation": "Ethos refers to building credibility and trust with the audience."
+        }
+    ]
+}

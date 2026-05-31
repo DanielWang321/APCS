@@ -1,0 +1,712 @@
+Honors English 3 Final Exam Study Guide
+1. MLA Formatting
+Basic MLA setup
+✅ Use 1-inch margins on all sides.
+✅ Use 12-point Times New Roman font.
+✅ Double-space the entire paper, including the heading.
+✅ Do not add extra spaces between the heading, title, and paragraphs.
+✅ Align paragraphs left.
+✅ Indent the first line of each paragraph one tab.
+MLA heading
+Put this in the upper left corner of the first page:
+Your First and Last Name
+Teacher’s Name
+Honors English 3
+29 May 2026
+MLA date format: day month year.
+Example: 29 May 2026
+MLA header
+The header goes in the upper right corner of every page.
+Format:
+Last Name Page Number
+Example:
+Wang 1
+Title formatting
+The title of your own essay should be centered. It should not be bolded, underlined, italicized, enlarged, or put in quotation marks.
+
+2. How to Format Titles
+Use this chart.
+Type of Work
+Formatting
+Magazine title
+Italics
+Newspaper title
+Italics
+Article in a magazine or newspaper
+Quotation marks
+Short story title
+Quotation marks
+Poem title
+Quotation marks
+Novel title
+Italics
+Chapter within a novel
+Quotation marks
+Play title
+Italics
+
+If handwriting, underline titles that would normally be italicized.
+Example:
+The Great Gatsby should be italicized when typed.
+The Great Gatsby should be underlined when handwritten.
+
+3. Incorporating Quotations
+Main rule
+A quotation must be part of your own sentence.
+❌ Bad:
+Whitman uses personification. “The last scud of day holds back for me.”
+✅ Better:
+Whitman uses personification when he writes, “The last scud of day holds back for me.”
+Quote lead-ins
+Use phrases like:
+The narrator states,
+Fitzgerald reveals this when he writes,
+The speaker explains,
+This idea appears when the author writes,
+The character’s fear becomes clear when she says,
+Punctuation with quotes
+For normal literary quotes, the period usually goes after the parenthetical citation.
+Example:
+Holden admits, “I can’t stand it” (Salinger 193).
+Not:
+Holden admits, “I can’t stand it.” (Salinger 193)
+If the quote ends with a question mark or exclamation point, keep that punctuation inside the quote, but still put a period after the citation.
+Example:
+Holden asks, “What Gatsby?” (Salinger 11).
+
+4. MLA In-Text Citations
+Novel citation
+If the author is not named in your sentence:
+Format:
+(Author Page)
+Example:
+Holden admits, “I can’t stand it” (Salinger 193).
+If the author is already named in your sentence:
+Format:
+(Page)
+Example:
+Salinger shows Holden’s frustration when he writes, “I can’t stand it” (193).
+Important: Do not put a comma between the author and page number.
+✅ Correct: (Cisneros 24)
+❌ Wrong: (Cisneros, 24)
+Poetry citation
+If quoting multiple lines of poetry in a normal sentence, use a slash to show line breaks.
+Example:
+Whitman writes, “Failing to fetch me at first keep encouraged/Missing me one place search another” (12-13).
+If the poem title is needed in the citation, put it in quotation marks.
+Example:
+Whitman writes, “I harbor for good or bad” (“Song of Myself” 12).
+Film citation
+For films, cite the film title.
+Example:
+Keating says, “But only in their dreams can men be truly free” (Dead Poets Society).
+Online database citation
+Use the author’s last name if there is one.
+Example:
+(Smith)
+If no author is given, use a shortened version of the article title in quotation marks (first 3 words).
+Example:
+(“Effects of Censorship”)
+For the Works Cited page, include as much publication information as the database gives you: author, article title, container title, publisher, date, database name, URL or DOI, and access date if required by your teacher.
+
+5. Block Quotations
+Use a block quotation when a quote reaches or exceeds 4 lines of your own typed paper.
+Block quote rules:
+✅ Keep your own quote introduction in the paragraph.
+✅ Introduce the block quote with a colon.
+✅ Do not use quotation marks around the block quote.
+✅ Indent the quote 0.5 inch from the left margin.
+✅ The punctuation stays with the quote before the citation.
+✅ After the block quote, your own writing continues flush with the normal margin.
+Normal quote punctuation:
+“The quote ends here” (Author 45).
+Block quote punctuation:
+The quote ends here. (Author 45)
+For poetry block quotes, keep the original line breaks. Do not use slashes.
+
+6. Essay Structure
+Introduction paragraph
+A strong introduction has three parts:
+Attention getter
+Background information
+Thesis statement
+Attention getter strategies
+You can begin with:
+Question
+Quote
+Fact or statistic
+Anecdote
+Hypothetical situation
+Definition
+Literary device
+Strong statement
+After the attention getter, weave into the background information. Do not jump awkwardly from the hook to the thesis.
+Background information
+Background gives general context. It should not prove your argument yet.
+For literary essays, include:
+Author
+Title
+Basic situation or subject
+Example:
+In F. Scott Fitzgerald’s The Great Gatsby, the characters chase wealth, status, and love in a society shaped by illusion.
+Thesis statement
+A thesis is one sentence. It gives the main claim of the essay.
+Single-tiered thesis
+A single-tiered thesis gives only the main claim.
+Example:
+In The Great Gatsby, Fitzgerald shows that chasing status can destroy a person’s moral identity.
+Three-tiered thesis
+A three-tiered thesis gives the main claim plus three reasons or examples.
+Example:
+In The Great Gatsby, Fitzgerald shows that chasing status can destroy a person’s moral identity through Gatsby’s obsession with Daisy, Tom’s careless privilege, and Myrtle’s desire for wealth.
+
+7. CER Body Paragraphs
+CER stands for:
+C: Claim
+C2: Claim Clarification
+E: Evidence
+R: Reasoning
+C: Claim
+The claim is the topic sentence of the paragraph. It presents the subject of the paragraph.
+Rules:
+✅ Start with a transition word or phrase.
+✅ Make it one sentence.
+✅ Do not make it a question.
+✅ Make sure it supports the thesis.
+Example:
+Furthermore, Gatsby’s obsession with Daisy shows how chasing status can replace genuine identity.
+C2: Claim Clarification
+C2 further explains the claim. It gives more information and leads toward the evidence.
+Usually, this should be 2 to 3 sentences total.
+Example:
+Gatsby does not only love Daisy as a person. He also treats her as proof that he has finally entered the wealthy world he always wanted.
+E: Evidence
+Evidence is a quote or specific example that supports your claim.
+Rules:
+✅ The quote must be part of your own sentence.
+✅ The quote must have a lead-in.
+✅ The quote must be cited correctly.
+Example:
+Fitzgerald reveals Gatsby’s dream when Gatsby insists, “Can’t repeat the past? Why of course you can!” (Salinger 193).
+R: Reasoning
+Reasoning explains why the evidence proves the claim and thesis.
+A strong reasoning section should be 3 to 4 sentences.
+Use this pattern:
+Says
+Explain what the quote literally says.
+Transition words:
+In other words,
+To put it differently,
+Another way to say this is,
+Means
+Explain what the quote implies or reveals.
+Transition words:
+This shows,
+This indicates,
+This illustrates,
+This proves,
+Matters
+Explain why it matters to the thesis or theme.
+Transition words:
+This matters because,
+This is important because,
+This demonstrates,
+This connects to the theme because,
+
+8. Conclusion Paragraph
+A conclusion should have three parts:
+Restate the thesis in new words.
+Tie together the main points.
+End with a memorable final sentence.
+Do not copy the exact thesis from the introduction.
+A strong final sentence should connect back to the attention getter if possible.
+
+9. Transition Words
+Use stronger transitions instead of basic ones like first, second, third, next, lastly, and finally.
+Addition
+Additionally
+Furthermore
+Moreover
+In addition
+Likewise
+Similarly
+Contrast
+However
+Nevertheless
+On the contrary
+On the other hand
+In contrast
+Contrastingly
+Cause and effect
+Therefore
+Consequently
+As a result
+For this reason
+Thus
+Emphasis
+In fact
+Indeed
+Most importantly
+Significantly
+Explanation
+In other words
+To put it differently
+This shows
+This indicates
+This illustrates
+
+10. Formal Writing Rules
+Do this
+✅ Use third person.
+✅ Use present tense when discussing literature or films.
+✅ Incorporate quotes into your own sentences.
+✅ Cite all quotes properly.
+✅ Use MLA format.
+✅ Use strong active verbs.
+Do not do this
+❌ Do not use first person: I, me, my, we, us, our.
+❌ Do not use second person: you, your, you’re.
+❌ Do not use contractions: can’t, won’t, would’ve.
+❌ Do not use hanging quotes.
+❌ Do not write “This essay will...”
+❌ Do not overuse be verbs.
+Use third person in formal writing.
+Instead of:
+I think Gatsby is obsessed with Daisy.
+Write:
+Gatsby’s actions reveal his obsession with Daisy.
+
+11. Active Voice vs. Passive Voice
+Be verbs to watch for
+am
+are
+is
+was
+were
+be
+being
+been
+become
+became
+The active/passive notes say to use no more than 5 be verbs in essays. One quotation review says 6, but use 5 to be safer.
+Active voice
+The subject does the action.
+Example:
+The public will elect the mayor next year.
+Passive voice
+The subject receives the action.
+Example:
+A mayor will be elected by the public next year.
+How to fix passive voice
+Ask: Who is doing the action?
+Passive:
+A batch of cookies was made by my son.
+Active:
+My son made a batch of cookies.
+Passive:
+The subway fare will be raised by the city.
+Active:
+The city will raise the subway fare.
+Even if a sentence is not technically passive, try to replace weak be verbs with stronger verbs.
+Weak:
+Sleep is essential for teenagers.
+Stronger:
+Sleep helps teenagers reduce stress.
+
+12. Punctuation Rules
+Commas
+Compound sentence comma
+Use a comma before a coordinating conjunction when both sides are complete sentences.
+FANBOYS:
+for, and, nor, but, or, yet, so
+Example:
+The restaurant makes delicious pasta, and the dessert menu is tempting.
+Do not use a comma if the second part is not a complete sentence.
+Example:
+The restaurant makes delicious pasta and tempting desserts.
+Series comma
+Use commas to separate items in a series.
+Example:
+He hit the ball, dropped the bat, and ran to first base.
+Introductory element comma
+Use a comma after an introductory phrase or clause.
+Example:
+Running toward third base, he suddenly realized his mistake.
+Parenthetical element comma
+Use commas around extra information that can be removed without changing the main meaning.
+Example:
+The Founders Bridge, which spans the Connecticut River, is falling down.
+Coordinate adjectives
+Use a comma between adjectives if you can put “and” or “but” between them.
+Example:
+He is a tall, distinguished man.
+Quoted elements
+Use commas to set off quoted material from the sentence that introduces it.
+Example:
+Peter writes, “The purpose is clear.”
+Contrast
+Use commas for contrast.
+Example:
+Some say the world will end in ice, not fire.
+Which vs. that
+Use a comma with which when the information is extra.
+Example:
+The record was broken, which shocked the crowd.
+Do not use a comma with that when the information is necessary.
+Example:
+The rooms that the designers planned were not always pleasing.
+Comma splice
+A comma splice happens when two complete sentences are joined with only a comma.
+Wrong:
+Gina’s poodle snapped at Jon, now the dog is kept on a leash.
+Fix it several ways:
+✅ Add FANBOYS:
+Gina’s poodle snapped at Jon, so now the dog is kept on a leash.
+✅ Use a semicolon:
+Gina’s poodle snapped at Jon; now the dog is kept on a leash.
+✅ Make two sentences:
+Gina’s poodle snapped at Jon. Now the dog is kept on a leash.
+✅ Use subordination:
+Since Gina’s poodle snapped at Jon, it is now kept on a leash.
+✅ Use a semicolon plus conjunctive adverb:
+Gina’s dog snapped at Jon; consequently, it is kept on a leash.
+
+Colons
+Use a colon after a complete sentence to introduce a list.
+Example:
+Jenna has four cats: Angel, Cinnamon, Kit, and Whiskers.
+Use a colon after a complete sentence to introduce a quote.
+Example:
+Reece showed his Pittsburgh vocabulary when he said these words: “I shot a gum band into the crick.”
+Do not use a colon after an incomplete sentence.
+Wrong:
+My favorite foods are: pizza, sushi, and pasta.
+Correct:
+My favorite foods are pizza, sushi, and pasta.
+
+Semicolons
+Use a semicolon to join two closely related complete sentences.
+Example:
+Gina’s poodle snapped at Jon; now the dog is kept on a leash.
+Use a semicolon with a conjunctive adverb.
+Formula:
+Complete sentence; however, complete sentence.
+Example:
+The claim seems convincing; however, the evidence is weak.
+Use semicolons in a complicated series when items already contain commas.
+Example:
+The winners were Sarah, president; Mario, vice-president; Chelsea, secretary; and Nate, treasurer.
+
+13. Ethos, Pathos, Logos
+Ethos
+Ethos builds credibility.
+A writer uses ethos by:
+Citing credible experts
+Showing experience on the topic
+Using a fair tone
+Including a counterclaim and rebuttal
+Showing moral understanding
+Simple definition:
+Ethos = credibility and trust.
+Pathos
+Pathos appeals to emotion.
+A writer uses pathos through:
+Anecdotes
+Personal stories
+Humor
+Passion
+Direct quotes
+Loaded language
+Emotional description
+Simple definition:
+Pathos = emotion.
+Logos
+Logos appeals to logic.
+A writer uses logos through:
+Facts
+Data
+Statistics
+Logical reasoning
+If-then statements
+Relevant evidence
+Simple definition:
+Logos = logic.
+A strong argument often uses all three.
+
+14. Descriptive Essay and College App Essay Qualities
+A strong descriptive or college app style essay should:
+✅ Show, not just tell.
+✅ Use specific details.
+✅ Focus on one meaningful moment or idea.
+✅ Use sensory imagery: sight, sound, smell, taste, touch.
+✅ Reveal personality or growth.
+✅ Avoid vague statements.
+✅ Avoid sounding generic.
+✅ Connect the experience to a larger meaning.
+Weak:
+I learned a lot from this challenge.
+Stronger:
+After the third failed attempt, I stopped blaming the assignment and started changing my method.
+
+15. Works Cited Page
+Use a Works Cited page when you use sources.
+Basic rules:
+✅ Put it on a separate page.
+✅ Center the title Works Cited.
+✅ Use the same MLA font, margins, spacing, and header.
+✅ Double-space everything.
+✅ Alphabetize entries by the author’s last name.
+✅ If no author exists, alphabetize by the first important word of the title.
+✅ Use hanging indent. The first line starts at the margin, and the following lines indent.
+✅ Every source cited in the essay should appear on the Works Cited page.
+✅ Every Works Cited entry should connect to a source used in the essay.
+General article format:
+Author Last Name, First Name. “Article Title.” Website or Publication Title, Publisher, Date, URL.
+General book format:
+Author Last Name, First Name. Book Title. Publisher, Year.
+
+16. Editing Marks and Writing Process
+The final review sheet says to know editing marks, including AWK and a loop around a comma. The uploaded support documents do not include a full editing mark key, so check any teacher-specific editing symbols from class.
+Know these common ones:
+AWK = awkward wording
+SP = spelling error
+Frag = fragment
+RO = run-on sentence
+CS = comma splice
+Cap = capitalization error
+¶ = new paragraph
+^ = insert something
+Delete mark = remove something
+Loop or mark near comma = comma issue, likely add, remove, or fix comma based on your teacher’s key
+Stages of the writing process
+Prewriting: brainstorm, plan, outline
+Drafting: write the first version
+Revising: improve ideas, structure, evidence, and reasoning
+Editing: fix grammar, punctuation, spelling, MLA format
+Publishing or submitting: final version
+
+17. Rhetorical Devices
+Comparison and figurative language
+Simile
+A comparison of two unlike things using like or as.
+Example:
+His smile is like the curve of a banana.
+Metaphor
+A comparison of two unlike things without using like or as.
+Example:
+The road is a ribbon around the mountain.
+Analogy
+A comparison used to explain or clarify something.
+Example:
+Life is like a box of chocolates because you never know what you will get.
+Personification
+Giving human qualities to something nonhuman.
+Example:
+The flowers danced in the wind.
+Hyperbole
+Extreme exaggeration for effect.
+Example:
+I have told you a million times.
+
+References and wordplay
+Allusion
+A reference to a person, place, event, or work of literature.
+Example:
+His stare threw lightning bolts. This alludes to Zeus.
+Types:
+Literary allusion: reference to literature
+Biblical allusion: reference to the Bible
+Historical allusion: reference to history
+Pun
+A joke based on multiple meanings of a word or words that sound alike.
+Example:
+The orange soda dream was a Fanta sea.
+Zeugma
+One word, usually a verb, applies to two objects in different ways.
+Example:
+He stole her car and her heart.
+
+Repetition and sound devices
+Alliteration
+Repetition of beginning consonant sounds.
+Example:
+Peter Piper picked peppers.
+Consonance
+Repetition of consonant sounds within or at the ends of words.
+Example:
+Locket and trick.
+Assonance
+Repetition of vowel sounds.
+Example:
+The rain in Spain stays mainly in the plain.
+Anaphora
+Repetition of a word or phrase at the beginning of successive clauses or lines.
+Example:
+To the house.
+To the farm.
+To the forest.
+Epistrophe
+Repetition of a word or phrase at the end of successive clauses or lines.
+Example:
+When I was a child, I spoke as a child, I understood as a child, I thought as a child.
+Parallelism
+Similar grammatical structure in nearby words, phrases, or clauses.
+Example:
+Give me liberty or give me death.
+
+Contrast and structure
+Paradox
+A statement that seems contradictory but may reveal truth.
+Example:
+It was the best of times; it was the worst of times.
+Irony
+When reality is the opposite of what is expected.
+Example:
+A fire station burns down.
+Antithesis
+Contrasting ideas placed in balanced phrases or clauses.
+Example:
+It was the best of times; it was the worst of times.
+Chiasmus
+A sentence structure where the second clause reverses the order of ideas in the first.
+Example:
+Ask not what your country can do for you; ask what you can do for your country.
+
+Substitution devices
+Synecdoche
+A part represents the whole, or the whole represents a part.
+Examples:
+“Wheels” means car.
+“Hands” means workers.
+Metonymy
+A closely related word substitutes for another idea.
+Example:
+“The crown” means the king, queen, or royal power.
+
+Sentence style devices
+Asyndeton
+Leaving out conjunctions.
+Example:
+I came, I saw, I conquered.
+Polysyndeton
+Using many conjunctions, often more than necessary.
+Example:
+I packed my shoes and my shirt and my jacket and my notebook.
+Anecdote
+A short story about a real incident or person.
+Example:
+A speaker tells a quick story from childhood to prove a point.
+
+18. Need to Memorize
+Absolute must-memorize list
+MLA
+✅ Heading order: name, teacher, class, date.
+✅ Date format: 29 May 2026.
+✅ Margins: 1 inch.
+✅ Font: 12-point Times New Roman.
+✅ Header: last name and page number, upper right.
+✅ Double-space everything.
+✅ No extra spaces.
+Title formatting
+✅ Italicize: novels, plays, newspapers, magazines.
+✅ Quotation marks: poems, short stories, articles, chapters.
+✅ Underline instead of italicize when handwriting.
+Quotes and citations
+✅ Quotes must be part of your own sentence.
+✅ Novel citation: (Author Page).
+✅ No comma in citation: (Cisneros 24).
+✅ If author is named in the sentence, cite only the page number.
+✅ Normal quote punctuation goes after the citation.
+✅ Block quote at 4 or more typed lines.
+✅ Block quotes use no quotation marks.
+✅ Block quote punctuation stays before the citation.
+✅ Poetry line breaks use slashes unless it is a block quote.
+CER
+✅ C = Claim.
+✅ C2 = Claim Clarification.
+✅ E = Evidence.
+✅ R = Reasoning.
+✅ Reasoning should explain Says, Means, Matters.
+Essay structure
+✅ Introduction: attention getter, background, thesis.
+✅ Thesis must be one sentence.
+✅ Three-tiered thesis = claim plus 3 reasons.
+✅ Single-tiered thesis = claim only.
+✅ Conclusion: restate thesis, tie main points, memorable final sentence.
+Formal writing
+✅ No first person.
+✅ No second person.
+✅ No contractions.
+✅ Use present tense for literature and film.
+✅ Avoid hanging quotes.
+✅ Avoid “This essay will...”
+✅ Limit be verbs. Aim for 5 or fewer.
+Passive voice
+Memorize be verbs:
+am, are, is, was, were, be, being, been, become, became
+To fix passive voice, put the doer before the action.
+Punctuation
+✅ Compound sentence: complete sentence, FANBOYS complete sentence.
+✅ No comma if the second part is not a complete sentence.
+✅ Comma splice = two complete sentences joined only by a comma.
+✅ Fix comma splices with FANBOYS, semicolon, period, subordination, or semicolon plus conjunctive adverb.
+✅ Use commas for series, introductory elements, parenthetical elements, coordinate adjectives, quotations, contrast, and nonessential which clauses.
+✅ Use that for necessary clauses, usually no comma.
+✅ Use colon after a complete sentence to introduce a list or quote.
+✅ Use semicolon between related complete sentences.
+Ethos, pathos, logos
+✅ Ethos = credibility.
+✅ Pathos = emotion.
+✅ Logos = logic.
+Rhetorical devices to memorize
+✅ Simile = comparison using like or as.
+✅ Metaphor = comparison without like or as.
+✅ Personification = human traits given to nonhuman things.
+✅ Hyperbole = exaggeration.
+✅ Allusion = reference to literature, history, Bible, or culture.
+✅ Pun = wordplay.
+✅ Paradox = seeming contradiction that may be true.
+✅ Irony = opposite of what is expected.
+✅ Synecdoche = part for whole or whole for part.
+✅ Metonymy = related word substitution.
+✅ Asyndeton = no conjunctions.
+✅ Polysyndeton = many conjunctions.
+✅ Anaphora = repetition at the beginning.
+✅ Epistrophe = repetition at the end.
+✅ Parallelism = repeated grammatical structure.
+✅ Chiasmus = reversed structure.
+✅ Zeugma = one verb used in two different ways.
+✅ Antithesis = balanced contrast.
+✅ Anecdote = short real story.
+✅ Alliteration = repeated beginning consonant sound.
+✅ Consonance = repeated consonant sounds.
+✅ Assonance = repeated vowel sounds.
+Transitions to memorize
+Use these instead of first, second, third, next, and finally:
+Additionally, furthermore, moreover, likewise, similarly, however, nevertheless, contrastingly, on the contrary, on the other hand, therefore, consequently, as a result, in fact, indeed, significantly, in other words, to put it differently, this shows, this indicates, this matters because.
+Writing process
+✅ Prewriting
+✅ Drafting
+✅ Revising
+✅ Editing
+✅ Publishing or submitting
+Works Cited
+✅ Separate page.
+✅ Title: Works Cited.
+✅ Alphabetical order.
+✅ Double-spaced.
+✅ Hanging indent.
+✅ Same MLA format as the rest of the paper.
+✅ Every cited source must appear on the Works Cited page.
+Editing marks
+Know your teacher’s exact key. At minimum, know:
+✅ AWK = awkward wording.
+✅ SP = spelling.
+✅ Frag = fragment.
+✅ RO = run-on.
+✅ CS = comma splice.
+✅ ¶ = new paragraph.
+✅ ^ = insert.
+✅ Delete mark = remove.
+✅ Comma mark or loop = comma issue, based on teacher’s editing key.
+

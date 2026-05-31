@@ -1,0 +1,114 @@
+{
+  "questions": [
+    {
+      "question": "What is the correct MLA formatting requirement for margins and font?",
+      "choices": [
+        "0.5-inch margins and Arial 11-point font",
+        "1-inch margins and Times New Roman 12-point font",
+        "1-inch margins and Arial 12-point font",
+        "1.5-inch margins and Times New Roman 10-point font"
+      ],
+      "answerIndex": 1,
+      "explanation": "MLA format requires 1-inch margins on all sides and 12-point Times New Roman font."
+    },
+    {
+      "question": "Which of the following titles should be italicized in an MLA paper?",
+      "choices": [
+        "A poem title",
+        "A short story title",
+        "A novel title",
+        "A chapter within a novel"
+      ],
+      "answerIndex": 2,
+      "explanation": "Novels, plays, newspapers, and magazines are italicized; poems, short stories, and chapters use quotation marks."
+    },
+    {
+      "question": "What is the correct way to cite a novel in-text if the author is not named in the sentence?",
+      "choices": [
+        "(Author, Page)",
+        "(Author: Page)",
+        "(Author Page)",
+        "Author (Page)"
+      ],
+      "answerIndex": 2,
+      "explanation": "The format is (Author Page) with no comma between the name and the number."
+    },
+    {
+      "question": "When should you use a block quotation in your essay?",
+      "choices": [
+        "When the quote is exactly one sentence long",
+        "When the quote reaches or exceeds 4 lines of your typed text",
+        "When you want to emphasize the quote with bold text",
+        "When you are quoting poetry only"
+      ],
+      "answerIndex": 1,
+      "explanation": "Block quotations are used when the quoted text reaches or exceeds 4 lines of the typed paper."
+    },
+    {
+      "question": "What are the three components of a CER body paragraph?",
+      "choices": [
+        "Claim, Evidence, Reasoning",
+        "Context, Evaluation, Reference",
+        "Claim, Explanation, Revision",
+        "Citation, Example, Response"
+      ],
+      "answerIndex": 0,
+      "explanation": "CER stands for Claim, Evidence, and Reasoning (often including Claim Clarification)."
+    },
+    {
+      "question": "Which of the following is a rule for formal writing in Honors English 3?",
+      "choices": [
+        "Use contractions to save space",
+        "Use first-person pronouns like 'I' or 'me'",
+        "Use present tense when discussing literature",
+        "Use second-person pronouns to address the reader"
+      ],
+      "answerIndex": 2,
+      "explanation": "Formal writing prohibits first and second person, contractions, and requires present tense for literary analysis."
+    },
+    {
+      "question": "How do you fix a comma splice?",
+      "choices": [
+        "By adding a second comma",
+        "By replacing the comma with a semicolon or adding a FANBOYS conjunction",
+        "By removing the subject of the second clause",
+        "By italicizing the transition word"
+      ],
+      "answerIndex": 1,
+      "explanation": "A comma splice occurs when two sentences are joined only by a comma; they must be fixed with a semicolon, period, or comma + FANBOYS."
+    },
+    {
+      "question": "Which rhetorical appeal focuses on the credibility and trustworthiness of the speaker?",
+      "choices": [
+        "Ethos",
+        "Pathos",
+        "Logos",
+        "Kairos"
+      ],
+      "answerIndex": 0,
+      "explanation": "Ethos is the appeal to credibility and trust."
+    },
+    {
+      "question": "What is the correct way to handle a Works Cited page?",
+      "choices": [
+        "List sources in order of appearance in the paper",
+        "Use bold text for the title of the work",
+        "Alphabetize entries by the author's last name with a hanging indent",
+        "Place the page at the very beginning of the essay"
+      ],
+      "answerIndex": 2,
+      "explanation": "Works Cited pages must be alphabetized by author and use a hanging indent."
+    },
+    {
+      "question": "Which rhetorical device describes the repetition of a word or phrase at the beginning of successive clauses?",
+      "choices": [
+        "Epistrophe",
+        "Anaphora",
+        "Antithesis",
+        "Chiasmus"
+      ],
+      "answerIndex": 1,
+      "explanation": "Anaphora is the repetition of a word or phrase at the beginning of successive clauses or lines."
+    }
+  ]
+}

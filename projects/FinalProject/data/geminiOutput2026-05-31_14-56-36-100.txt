@@ -1,0 +1,44 @@
+{
+    "questions": [
+        {
+            "question": "Which of the following is a correct rule for MLA in-text citations?",
+            "choices": [
+                "Include a comma between the author's name and the page number.",
+                "Do not put a comma between the author and the page number.",
+                "Place the period before the parenthetical citation for normal literary quotes."
+            ],
+            "answerIndex": 1,
+            "explanation": "According to MLA guidelines, you should not put a comma between the author's name and the page number (e.g., Cisneros 24)."
+        },
+        {
+            "question": "When quoting a block quotation in an essay, which rule must you follow?",
+            "choices": [
+                "Use quotation marks around the entire block.",
+                "Indent the entire block quote 0.5 inches from the left margin.",
+                "Place the final period after the parenthetical citation."
+            ],
+            "answerIndex": 1,
+            "explanation": "Block quotations are used for quotes of 4 or more lines; they are not enclosed in quotation marks and must be indented 0.5 inches."
+        },
+        {
+            "question": "Which of the following is a key component of the 'Reasoning' (R) section in a CER paragraph?",
+            "choices": [
+                "Defining the author and title of the work.",
+                "Providing a direct quote from the text.",
+                "Explaining the 'Says,' 'Means,' and 'Matters' of the evidence."
+            ],
+            "answerIndex": 2,
+            "explanation": "Reasoning explains why the evidence proves the claim, following the structure of explaining what the quote says, what it means, and why it matters."
+        },
+        {
+            "question": "Which of the following is an example of an 'Ethos' appeal?",
+            "choices": [
+                "Using statistics and logical data to support an argument.",
+                "Citing credible experts to build trust and credibility.",
+                "Using emotional anecdotes to connect with the reader's feelings."
+            ],
+            "answerIndex": 1,
+            "explanation": "Ethos is an appeal to credibility and trust, which is often established by citing credible experts and showing experience on a topic."
+        }
+    ]
+}

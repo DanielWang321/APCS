@@ -1,3 +1,4 @@
+//Written completely by me unless specificied
 package apcs.app;
 
 import java.io.File;
@@ -29,29 +30,43 @@ public class Main {
         System.out.println("running");
         String apiKey = getApiKey();
         String inputFileName = saveStringToFile(notes, true);
-        String model = "gemini-3.5-flash";
+        String MODEL = "gemini-3.1-flash-lite";
         Client client = Client.builder().apiKey(apiKey).build();
         String format = """
-                QUESTION NUMBER
-                QUESTION
-                CHOICE 1
-                CHOICE 2
-                ...
-                ANSWER NUMBER
+                {
+                    "questions": [
+                        {
+                        "question": "Question text here",
+                        "choices": ["Choice A", "Choice B", "Choice C", "Choice D"],
+                        "answerIndex": 0,
+                        "explanation": "Short explanation here"
+                    }
+                  ]
+                }
 
-                Example:
-                1
-                What is the main function of a mitochondria in a cell?
-                Store genetic information
-                Produce energy
-                Control what enters and leaves the cell
-                Make proteins
-                2
-                                                """;
+
+                EXAMPLE:
+                {
+                    "questions": [
+                        {
+                        "question": "What is the main function of mitochondria?",
+                        "choices": [
+                            "Store genetic information",
+                            "Produce energy",
+                            "Control what enters and leaves the cell",
+                            "Make proteins"
+                        ],
+                        "answerIndex": 1,
+                        "explanation": "Mitochondria produce energy for the cell."
+                        }
+                    ]
+                }
+                """;
         String prompt = "turn these notes into " + numQuestions + " multiple choice questions with " + numChoices
-                + " choices per question. \nFollow this exact format:\n" + format + "\n\nNotes: \n"
+                + " choices per question. \n Return ONLY JSON, Do not use markdown, Do not use ''' json, do not include any explanation outside of JSON \nFollow this exact format:\n"
+                + format + "\n\nNotes: \n"
                 + fileToString(inputFileName);
-        GenerateContentResponse response = client.models.generateContent(model, prompt, null);
+        GenerateContentResponse response = client.models.generateContent(MODEL, prompt, null);
         System.out.println(response.text());
         return saveStringToFile(response.text(), false);
     }
@@ -68,7 +83,8 @@ public class Main {
     // HELPED BY GOOGLE AI OVERVIEW: https://share.google/aimode/F4j392uGTxxAnUFyp
     public static String getApiKey() throws FileNotFoundException {
         Properties prop = new Properties();
-        InputStream input = new FileInputStream("C:\\Users\\techadmin\\Documents\\GithubProj\\APCS\\projects\\FinalProject\\config.properties");
+        InputStream input = new FileInputStream(
+                "C:\\Users\\techadmin\\Documents\\GithubProj\\APCS\\projects\\FinalProject\\config.properties");
         try {
             prop.load(input);
         } catch (IOException e) {
@@ -98,24 +114,29 @@ public class Main {
         String formatted = now.format(formatter);
         if (type) {
             try {
-                Files.writeString(Paths.get("C:\\Users\\techadmin\\Documents\\GithubProj\\APCS\\projects\\FinalProject\\data\\userInput" + formatted + ".txt"), userInput);
+                Files.writeString(Paths.get(
+                        "C:\\Users\\techadmin\\Documents\\GithubProj\\APCS\\projects\\FinalProject\\data\\userInput"
+                                + formatted + ".txt"),
+                        userInput);
                 System.out.println("wrote to input file");
             } catch (IOException e) {
                 e.printStackTrace();
             }
-            return "C:\\Users\\techadmin\\Documents\\GithubProj\\APCS\\projects\\FinalProject\\data\\userInput" + formatted + ".txt";
+            return "C:\\Users\\techadmin\\Documents\\GithubProj\\APCS\\projects\\FinalProject\\data\\userInput"
+                    + formatted + ".txt";
         } else {
             try {
-                Files.writeString(Paths.get("C:\\Users\\techadmin\\Documents\\GithubProj\\APCS\\projects\\FinalProject\\data\\geminiOutput" + formatted + ".txt"),
+                Files.writeString(Paths.get(
+                        "C:\\Users\\techadmin\\Documents\\GithubProj\\APCS\\projects\\FinalProject\\data\\geminiOutput"
+                                + formatted + ".txt"),
                         userInput);
                 System.out.println("wrote output file");
             } catch (IOException e) {
                 e.printStackTrace();
             }
-            return "C:\\Users\\techadmin\\Documents\\GithubProj\\APCS\\projects\\FinalProject\\data\\geminiOutput" + formatted + ".txt";
+            return "C:\\Users\\techadmin\\Documents\\GithubProj\\APCS\\projects\\FinalProject\\data\\geminiOutput"
+                    + formatted + ".txt";
         }
     }
-
-    
 
 }

@@ -21,10 +21,9 @@ public class MessageController {
         int numQuestions = request.getNumQuestions();
         int numChoices = request.getNumChoices();
         String notes = request.getNotes();
-        
+
         String outputFile = Main.notesToQuestions(numQuestions, numChoices, notes);
 
-        return Map.of(
-                "reply", Main.fileToString(outputFile));
+        return Map.of("reply", Main.fileToString(outputFile));
     }
 }

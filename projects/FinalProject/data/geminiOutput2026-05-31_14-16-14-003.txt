@@ -1,0 +1,59 @@
+{
+  "questions": [
+    {
+      "question": "Which of the following is the correct format for an in-text MLA citation for a novel when the author is not mentioned in the sentence?",
+      "choices": [
+        "(Author, Page)",
+        "(Author Page)",
+        "Author Page",
+        "(Page)"
+      ],
+      "answerIndex": 1,
+      "explanation": "According to MLA guidelines, the correct format is (Author Page) with no comma between the author and page number."
+    },
+    {
+      "question": "What is the correct way to handle a quotation that reaches or exceeds 4 lines of text in your paper?",
+      "choices": [
+        "Use quotation marks and keep it in the paragraph.",
+        "Use a colon, omit quotation marks, and indent the entire quote 0.5 inches.",
+        "Use a semicolon and keep it aligned with the left margin.",
+        "Use quotation marks and indent the entire quote 1 inch."
+      ],
+      "answerIndex": 1,
+      "explanation": "A block quotation requires a colon lead-in, no quotation marks, and an indentation of 0.5 inches from the left margin."
+    },
+    {
+      "question": "Which of the following is considered a 'be' verb that should be limited in formal writing?",
+      "choices": [
+        "Run",
+        "Create",
+        "Been",
+        "Analyze"
+      ],
+      "answerIndex": 2,
+      "explanation": "The list of 'be' verbs includes am, are, is, was, were, be, being, been, become, and became."
+    },
+    {
+      "question": "When writing a CER body paragraph, what is the correct order of the components?",
+      "choices": [
+        "Claim, Claim Clarification, Evidence, Reasoning",
+        "Claim, Evidence, Reasoning, Claim Clarification",
+        "Evidence, Claim, Claim Clarification, Reasoning",
+        "Claim, Reasoning, Evidence, Claim Clarification"
+      ],
+      "answerIndex": 0,
+      "explanation": "CER stands for Claim, Claim Clarification, Evidence, and Reasoning."
+    },
+    {
+      "question": "Which rhetorical device is used when a writer uses a part of something to represent the whole?",
+      "choices": [
+        "Metonymy",
+        "Synecdoche",
+        "Paradox",
+        "Chiasmus"
+      ],
+      "answerIndex": 1,
+      "explanation": "Synecdoche is defined as a device where a part represents the whole or the whole represents a part."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "questions": [
+    {
+      "question": "Which of the following is the correct format for an MLA in-text citation for a novel when the author is not named in the sentence?",
+      "choices": [
+        "(Author, Page)",
+        "(Author Page)",
+        "\"Author Page\"",
+        "(Author, p. Page)"
+      ],
+      "answerIndex": 1,
+      "explanation": "MLA format for a novel citation when the author is not named in the sentence is (Author Page) with no comma."
+    },
+    {
+      "question": "Which of the following is a correct way to fix a comma splice?",
+      "choices": [
+        "Use a semicolon to join two complete sentences.",
+        "Add a comma after the second sentence.",
+        "Remove the conjunction and keep the comma.",
+        "Change the second sentence into a fragment."
+      ],
+      "answerIndex": 0,
+      "explanation": "A comma splice occurs when two complete sentences are joined only by a comma; using a semicolon is a correct way to fix it."
+    },
+    {
+      "question": "What is the correct punctuation rule for a block quotation?",
+      "choices": [
+        "Include quotation marks around the entire quote.",
+        "Place the period after the citation.",
+        "Place the period before the citation.",
+        "Indent the entire quote 1 inch from the left margin."
+      ],
+      "answerIndex": 2,
+      "explanation": "For block quotations, the period stays with the quote before the citation."
+    },
+    {
+      "question": "Which term describes the repetition of a word or phrase at the end of successive clauses or lines?",
+      "choices": [
+        "Anaphora",
+        "Parallelism",
+        "Epistrophe",
+        "Alliteration"
+      ],
+      "answerIndex": 2,
+      "explanation": "Epistrophe is the repetition of a word or phrase at the end of successive clauses or lines, while anaphora is at the beginning."
+    },
+    {
+      "question": "Which of the following best describes the 'Reasoning' (R) portion of a CER body paragraph?",
+      "choices": [
+        "It provides the quote or specific example from the text.",
+        "It introduces the topic sentence of the paragraph.",
+        "It explains the claim further in 2-3 sentences.",
+        "It explains the 'Says, Means, and Matters' of the evidence."
+      ],
+      "answerIndex": 3,
+      "explanation": "Reasoning explains why the evidence proves the claim and thesis, specifically using the 'Says, Means, Matters' structure."
+    }
+  ]
+}

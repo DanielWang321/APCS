@@ -1,0 +1,59 @@
+{
+  "questions": [
+    {
+      "question": "Which of the following is the correct format for an in-text MLA citation for a novel when the author's name is NOT included in the sentence?",
+      "choices": [
+        "(Author, Page)",
+        "(Author Page)",
+        "(Author, Page Number)",
+        "Author (Page)"
+      ],
+      "answerIndex": 1,
+      "explanation": "According to the notes, the correct format is (Author Page) without a comma between the author and page number."
+    },
+    {
+      "question": "What is the correct punctuation for a block quotation according to MLA guidelines?",
+      "choices": [
+        "The punctuation goes after the parenthetical citation.",
+        "The punctuation goes inside the quotation marks.",
+        "The punctuation stays with the quote before the citation.",
+        "No punctuation is required after a block quote."
+      ],
+      "answerIndex": 2,
+      "explanation": "In a block quote, the punctuation stays with the quote before the citation, and there are no quotation marks used."
+    },
+    {
+      "question": "Which of the following is NOT allowed in formal Honors English 3 essays?",
+      "choices": [
+        "Third person",
+        "Active voice",
+        "Present tense for literature",
+        "Contractions"
+      ],
+      "answerIndex": 3,
+      "explanation": "Formal writing rules explicitly state that you should not use contractions (e.g., can't, won't)."
+    },
+    {
+      "question": "Which rhetorical device is defined as a joke based on multiple meanings of a word or words that sound alike?",
+      "choices": [
+        "Allusion",
+        "Pun",
+        "Paradox",
+        "Zeugma"
+      ],
+      "answerIndex": 1,
+      "explanation": "A pun is a joke based on multiple meanings of a word or words that sound alike."
+    },
+    {
+      "question": "What does a comma splice indicate?",
+      "choices": [
+        "A missing comma in a list of items",
+        "The improper joining of two complete sentences with only a comma",
+        "The use of a semicolon instead of a period",
+        "An introductory element that needs a comma"
+      ],
+      "answerIndex": 1,
+      "explanation": "A comma splice occurs when two complete sentences are joined incorrectly using only a comma."
+    }
+  ]
+}

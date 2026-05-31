@@ -1,0 +1,59 @@
+{
+    "questions": [
+        {
+            "question": "Which organelle is responsible for producing ATP through cellular respiration?",
+            "choices": [
+                "Nucleus",
+                "Ribosome",
+                "Mitochondria",
+                "Chloroplast"
+            ],
+            "answerIndex": 2,
+            "explanation": "Mitochondria produce ATP through the process of cellular respiration."
+        },
+        {
+            "question": "What is the primary function of the nucleus?",
+            "choices": [
+                "To store DNA and direct cell activities",
+                "To produce energy for the cell",
+                "To synthesize proteins",
+                "To regulate material entry and exit"
+            ],
+            "answerIndex": 0,
+            "explanation": "The nucleus acts as the control center by storing DNA and directing cell activities."
+        },
+        {
+            "question": "Which organelles are responsible for building proteins?",
+            "choices": [
+                "Chloroplasts",
+                "Ribosomes",
+                "Mitochondria",
+                "Cell membranes"
+            ],
+            "answerIndex": 1,
+            "explanation": "Ribosomes are the cellular structures that build proteins."
+        },
+        {
+            "question": "What is the role of the cell membrane?",
+            "choices": [
+                "To synthesize sugar from sunlight",
+                "To store genetic information",
+                "To produce ATP",
+                "To control the movement of materials into and out of the cell"
+            ],
+            "answerIndex": 3,
+            "explanation": "The cell membrane acts as a barrier that controls the entry and exit of materials."
+        },
+        {
+            "question": "Which organelle is found in plant cells and uses sunlight for photosynthesis?",
+            "choices": [
+                "Ribosome",
+                "Chloroplast",
+                "Mitochondria",
+                "Nucleus"
+            ],
+            "answerIndex": 1,
+            "explanation": "Chloroplasts are specialized organelles in plant cells that perform photosynthesis."
+        }
+    ]
+}

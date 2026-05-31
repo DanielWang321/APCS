@@ -1,0 +1,59 @@
+{
+    "questions": [
+        {
+            "question": "Which of the following correctly follows MLA formatting for a parenthetical citation of a novel?",
+            "choices": [
+                "(Salinger, 193)",
+                "(Salinger 193)",
+                "(\"Salinger\" 193)",
+                "(Salinger. 193)"
+            ],
+            "answerIndex": 1,
+            "explanation": "MLA citation format for a novel is (Author Page) with no comma between the author and the page number."
+        },
+        {
+            "question": "Which of these is a correct example of a block quotation introduction and punctuation?",
+            "choices": [
+                "The narrator writes: “The quote begins here and goes on for four lines until it finally ends.” (Smith 10)",
+                "The narrator writes, “The quote begins here and goes on for four lines until it finally ends” (Smith 10).",
+                "The narrator writes: The quote begins here and goes on for four lines until it finally ends. (Smith 10)",
+                "The narrator writes: “The quote begins here and goes on for four lines until it finally ends” (Smith 10)."
+            ],
+            "answerIndex": 2,
+            "explanation": "Block quotes use a colon to introduce them, do not use quotation marks, and the period is placed before the parenthetical citation."
+        },
+        {
+            "question": "What is the primary function of the 'Reasoning' (R) section in a CER body paragraph?",
+            "choices": [
+                "To present the topic sentence for the paragraph.",
+                "To introduce the quote using a lead-in phrase.",
+                "To explain what the evidence says, means, and why it matters to the thesis.",
+                "To provide biographical information about the author."
+            ],
+            "answerIndex": 2,
+            "explanation": "Reasoning explains the 'Says, Means, Matters' of the evidence to prove the claim and the overall thesis."
+        },
+        {
+            "question": "Which of the following correctly identifies an example of a comma splice?",
+            "choices": [
+                "The cat slept, and the dog barked.",
+                "The cat slept, the dog barked.",
+                "The cat slept; the dog barked.",
+                "The cat slept because the dog barked."
+            ],
+            "answerIndex": 1,
+            "explanation": "A comma splice occurs when two complete sentences are joined only by a comma."
+        },
+        {
+            "question": "Which rhetorical device is used when an author gives human qualities to something nonhuman?",
+            "choices": [
+                "Metaphor",
+                "Hyperbole",
+                "Allusion",
+                "Personification"
+            ],
+            "answerIndex": 3,
+            "explanation": "Personification is the act of giving human qualities to nonhuman objects or ideas."
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "questions": [
+        {
+            "question": "Which of the following is the correct way to format an in-text citation for a novel if the author is not mentioned in your sentence?",
+            "choices": [
+                "(Salinger, 193)",
+                "(Salinger 193)",
+                "(\"Salinger\" 193)",
+                "(Salinger, p. 193)"
+            ],
+            "answerIndex": 1,
+            "explanation": "MLA format for a novel citation when the author is not named in the sentence requires the author's last name and the page number with no comma between them."
+        },
+        {
+            "question": "What is the correct punctuation for a normal literary quote?",
+            "choices": [
+                "Holden admits, “I can’t stand it.” (Salinger 193)",
+                "Holden admits “I can’t stand it” (Salinger 193).",
+                "Holden admits, “I can’t stand it” (Salinger 193).",
+                "Holden admits, “I can’t stand it” (Salinger, 193)."
+            ],
+            "answerIndex": 2,
+            "explanation": "For normal literary quotes, the period goes after the parenthetical citation."
+        },
+        {
+            "question": "Which of the following must be italicized according to MLA formatting rules for titles?",
+            "choices": [
+                "Article in a newspaper",
+                "Short story title",
+                "Novel title",
+                "Chapter within a novel"
+            ],
+            "answerIndex": 2,
+            "explanation": "Novels are considered major works and should be italicized, while articles, short stories, and chapters use quotation marks."
+        },
+        {
+            "question": "What is the primary function of the 'Reasoning' (R) section in a CER body paragraph?",
+            "choices": [
+                "To present the topic sentence of the paragraph.",
+                "To explain why the evidence proves the claim and thesis.",
+                "To provide a direct quote from the text.",
+                "To introduce the essay's overarching argument."
+            ],
+            "answerIndex": 1,
+            "explanation": "Reasoning explains the 'Says, Means, and Matters' of the evidence to connect it to the claim and thesis."
+        },
+        {
+            "question": "Which of the following sentences correctly fixes a comma splice?",
+            "choices": [
+                "The dog barked, it wanted food.",
+                "The dog barked; it wanted food.",
+                "The dog barked, and, it wanted food.",
+                "The dog barked it wanted food."
+            ],
+            "answerIndex": 1,
+            "explanation": "A comma splice occurs when two complete sentences are joined by only a comma; using a semicolon is a correct way to fix this error."
+        }
+    ]
+}

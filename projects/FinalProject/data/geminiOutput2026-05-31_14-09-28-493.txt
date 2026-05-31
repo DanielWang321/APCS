@@ -1,0 +1,59 @@
+{
+    "questions": [
+        {
+            "question": "Which of the following is the correct MLA format for an in-text citation for a novel when the author's name is NOT included in the sentence?",
+            "choices": [
+                "(Author, Page)",
+                "(Author Page)",
+                "Author (Page)",
+                "Author, Page"
+            ],
+            "answerIndex": 1,
+            "explanation": "MLA format for a novel citation without the author named in the sentence is (Author Page) with no comma between them."
+        },
+        {
+            "question": "Which of the following describes a correctly formatted MLA title of a novel?",
+            "choices": [
+                "\"The Great Gatsby\"",
+                "The Great Gatsby",
+                "The Great Gatsby (italicized)",
+                "<u>The Great Gatsby</u>"
+            ],
+            "answerIndex": 2,
+            "explanation": "Novels must be italicized in MLA format when typed."
+        },
+        {
+            "question": "What is the correct way to fix a comma splice?",
+            "choices": [
+                "Join two complete sentences with a comma and a coordinating conjunction (FANBOYS).",
+                "Join two complete sentences with just a comma.",
+                "Remove the comma and combine the sentences without any punctuation.",
+                "Replace the comma with a preposition."
+            ],
+            "answerIndex": 0,
+            "explanation": "A comma splice occurs when two complete sentences are joined only by a comma. Adding a coordinating conjunction (FANBOYS) is a correct way to fix it."
+        },
+        {
+            "question": "Which rhetorical device is used when an author gives human qualities to something nonhuman?",
+            "choices": [
+                "Metaphor",
+                "Allusion",
+                "Personification",
+                "Hyperbole"
+            ],
+            "answerIndex": 2,
+            "explanation": "Personification is the act of giving human qualities to nonhuman objects or ideas."
+        },
+        {
+            "question": "In a CER body paragraph, what should the Reasoning (R) section accomplish?",
+            "choices": [
+                "It should define the terms used in the paragraph.",
+                "It should present a new claim to be argued in the next paragraph.",
+                "It should explain the evidence and connect it back to the thesis using 'Says, Means, Matters'.",
+                "It should provide the bibliographic information for the evidence used."
+            ],
+            "answerIndex": 2,
+            "explanation": "The Reasoning section of a CER paragraph explains why the evidence proves the claim and thesis, specifically by explaining what the quote says, means, and why it matters."
+        }
+    ]
+}

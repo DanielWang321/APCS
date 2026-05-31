@@ -1,0 +1,54 @@
+{
+    "questions": [
+        {
+            "question": "Which of the following represents the correct MLA date format to be used in the heading?",
+            "choices": [
+                "May 29, 2026",
+                "29 May 2026",
+                "05/29/2026"
+            ],
+            "answerIndex": 1,
+            "explanation": "According to MLA guidelines, the date in the heading should be formatted as day month year (e.g., 29 May 2026)."
+        },
+        {
+            "question": "How should the title of a novel be formatted when typing an essay?",
+            "choices": [
+                "In quotation marks",
+                "In italics",
+                "Underlined"
+            ],
+            "answerIndex": 1,
+            "explanation": "Novel titles must be italicized when typed. If handwritten, they should be underlined."
+        },
+        {
+            "question": "Which is the correct MLA in-text citation format for a novel when the author is not named in the sentence?",
+            "choices": [
+                "(Cisneros, 24)",
+                "(Cisneros 24)",
+                "(Cisneros, p. 24)"
+            ],
+            "answerIndex": 1,
+            "explanation": "Do not put a comma or abbreviation like 'p.' between the author's last name and the page number in an MLA parenthetical citation."
+        },
+        {
+            "question": "What rhetorical device is used in the phrase: 'Ask not what your country can do for you; ask what you can do for your country'?",
+            "choices": [
+                "Anaphora",
+                "Chiasmus",
+                "Antithesis"
+            ],
+            "answerIndex": 1,
+            "explanation": "Chiasmus is a sentence structure where the second clause reverses the order of ideas in the first."
+        },
+        {
+            "question": "Which of the following sentences is written in the active voice?",
+            "choices": [
+                "A batch of cookies was made by my son.",
+                "My son made a batch of cookies.",
+                "Cookies were being made by my son."
+            ],
+            "answerIndex": 1,
+            "explanation": "In active voice, the subject performs the action directly ('My son made...'). Passive voice has the subject receiving the action."
+        }
+    ]
+}
