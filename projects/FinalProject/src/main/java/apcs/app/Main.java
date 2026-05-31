@@ -98,21 +98,21 @@ public class Main {
         String formatted = now.format(formatter);
         if (type) {
             try {
-                Files.writeString(Paths.get("projects\\FinalProject\\data\\userInput" + formatted + ".txt"), userInput);
+                Files.writeString(Paths.get("C:\\Users\\techadmin\\Documents\\GithubProj\\APCS\\projects\\FinalProject\\data\\userInput" + formatted + ".txt"), userInput);
                 System.out.println("wrote to input file");
             } catch (IOException e) {
                 e.printStackTrace();
             }
-            return "projects\\FinalProject\\data\\userInput" + formatted + ".txt";
+            return "C:\\Users\\techadmin\\Documents\\GithubProj\\APCS\\projects\\FinalProject\\data\\userInput" + formatted + ".txt";
         } else {
             try {
-                Files.writeString(Paths.get("projects\\FinalProject\\data\\geminiOutput" + formatted + ".txt"),
+                Files.writeString(Paths.get("C:\\Users\\techadmin\\Documents\\GithubProj\\APCS\\projects\\FinalProject\\data\\geminiOutput" + formatted + ".txt"),
                         userInput);
                 System.out.println("wrote output file");
             } catch (IOException e) {
                 e.printStackTrace();
             }
-            return "projects\\FinalProject\\data\\geminiOutput" + formatted + ".txt";
+            return "C:\\Users\\techadmin\\Documents\\GithubProj\\APCS\\projects\\FinalProject\\data\\geminiOutput" + formatted + ".txt";
         }
     }
 

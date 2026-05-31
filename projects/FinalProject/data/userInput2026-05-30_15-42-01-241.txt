@@ -1,0 +1,287 @@
+Honors English 3 Final Exam Study Guide
+1. MLA Formatting
+Basic MLA Setup
+✅ 1-inch margins
+✅ 12-point Times New Roman
+✅ Double-space everything
+✅ No extra spacing between heading/title/paragraphs
+✅ Left-align text
+✅ Indent first line of each paragraph
+MLA Heading
+Upper left corner:
+Your Name
+Teacher’s Name
+Honors English 3
+29 May 2026
+Date format: day month year
+MLA Header
+Upper right corner:
+Last Name Page Number
+Example: Wang 1
+Title Formatting
+Center the title. Do not bold, underline, italicize, enlarge, or use quotation marks.
+
+2. Formatting Titles
+Type of Work
+Format
+Novels, plays, magazines, newspapers
+Italics
+Poems, short stories, articles, chapters
+Quotation marks
+
+If handwritten, underline titles that would be italicized.
+
+3. Incorporating Quotations
+Main Rule
+Quotes must fit into your own sentence.
+❌ “The last scud of day holds back for me.”
+✅ Whitman writes, “The last scud of day holds back for me.”
+Useful Lead-Ins
+The narrator states,
+Fitzgerald reveals,
+The speaker explains,
+The author writes,
+Quote Punctuation
+Periods go after citations:
+✅ “I can’t stand it” (Salinger 193).
+Question/exclamation marks stay inside the quote:
+✅ “What Gatsby?” (Salinger 11).
+
+4. MLA In-Text Citations
+Novels
+Without author in sentence:
+✅ (Salinger 193)
+With author in sentence:
+✅ (193)
+❌ Never use commas: (Cisneros, 24)
+Poetry
+Use slashes for line breaks:
+✅ “search another” (12-13)
+Films
+✅ (Dead Poets Society)
+Online Sources
+Use author’s last name or shortened article title:
+✅ (Smith)
+✅ (“Effects of Censorship”)
+
+5. Block Quotations
+Use for quotes 4+ typed lines.
+Rules:
+✅ Introduce with a colon
+✅ Indent 0.5 inch
+✅ No quotation marks
+✅ Citation comes after punctuation
+Poetry block quotes keep original line breaks.
+
+6. Essay Structure
+Introduction
+Hook
+Background
+Thesis
+Hooks
+Question
+Quote
+Fact/statistic
+Anecdote
+Strong statement
+Thesis
+One sentence stating the main argument.
+Single-Tiered
+Main claim only.
+Three-Tiered
+Main claim + 3 reasons/examples.
+
+7. CER Body Paragraphs
+C = Claim
+Topic sentence supporting thesis.
+C2 = Claim Clarification
+Further explanation leading to evidence.
+E = Evidence
+Quote/example with proper citation.
+R = Reasoning
+Explain:
+Says
+Means
+Matters
+
+8. Conclusion Paragraph
+Restate thesis differently
+Summarize main points
+End memorably
+
+9. Transition Words
+Addition
+Additionally, furthermore, moreover, similarly
+Contrast
+However, nevertheless, in contrast
+Cause/Effect
+Therefore, consequently, as a result
+Emphasis
+Indeed, significantly, in fact
+Explanation
+In other words, this shows, this indicates
+
+10. Formal Writing Rules
+Do
+✅ Use third person
+✅ Use present tense for literature
+✅ Use MLA format
+✅ Use active verbs
+Avoid
+❌ First/second person
+❌ Contractions
+❌ Hanging quotes
+❌ “This essay will...”
+❌ Too many be verbs
+
+11. Active vs. Passive Voice
+Be Verbs
+am, are, is, was, were, be, being, been, become, became
+Active Voice
+Subject performs action.
+✅ The city raised the fare.
+Passive Voice
+Subject receives action.
+❌ The fare was raised by the city.
+Use stronger verbs whenever possible.
+
+12. Punctuation Rules
+Commas
+Compound Sentences
+Use comma + FANBOYS between two complete sentences.
+✅ The restaurant serves pasta, and the desserts are excellent.
+Series Comma
+✅ He ran, jumped, and slid.
+Introductory Elements
+✅ After the game, we celebrated.
+Parenthetical Elements
+✅ The bridge, which spans the river, is old.
+Coordinate Adjectives
+✅ A tall, distinguished man
+Quotations
+✅ Peter writes, “The purpose is clear.”
+Comma Splice
+❌ Two complete sentences joined only by a comma.
+Fix with:
+FANBOYS
+Semicolon
+Period
+Subordination
+
+Colons
+Use after a complete sentence to introduce:
+Lists
+Quotes
+✅ Jenna owns four cats: Angel, Kit, Cinnamon, and Whiskers.
+
+Semicolons
+Use between related complete sentences.
+✅ The evidence is weak; however, the claim is convincing.
+Use in complicated lists with commas.
+
+13. Ethos, Pathos, Logos
+Ethos = credibility
+Uses experts, fairness, experience.
+Pathos = emotion
+Uses stories, emotional language, humor.
+Logos = logic
+Uses facts, statistics, reasoning.
+Strong arguments use all three.
+
+14. Descriptive & College App Essays
+Strong essays:
+✅ Show, not tell
+✅ Use sensory details
+✅ Focus on meaningful moments
+✅ Reveal growth/personality
+✅ Avoid vague language
+
+15. Works Cited Page
+✅ Separate page
+✅ Title: Works Cited
+✅ Double-spaced
+✅ Alphabetical order
+✅ Hanging indent
+✅ Same MLA formatting
+Basic Formats
+Book:
+Author. Book Title. Publisher, Year.
+Article:
+Author. “Article Title.” Website/Publication, Publisher, Date, URL.
+
+16. Editing Marks & Writing Process
+Common Editing Marks
+AWK = awkward wording
+SP = spelling
+Frag = fragment
+RO = run-on
+CS = comma splice
+¶ = new paragraph
+^ = insert
+Writing Process
+Prewriting
+Drafting
+Revising
+Editing
+Publishing
+
+17. Rhetorical Devices
+Figurative Language
+Simile
+Comparison using like/as.
+Metaphor
+Comparison without like/as.
+Analogy
+Comparison used to explain.
+Personification
+Human traits given to nonhuman things.
+Hyperbole
+Extreme exaggeration.
+
+References & Wordplay
+Allusion
+Reference to literature, history, Bible, etc.
+Pun
+Wordplay.
+Zeugma
+One word applies differently to two objects.
+
+Repetition & Sound
+Alliteration
+Repeated beginning consonants.
+Consonance
+Repeated consonant sounds.
+Assonance
+Repeated vowel sounds.
+Anaphora
+Repetition at beginnings.
+Epistrophe
+Repetition at endings.
+Parallelism
+Repeated grammatical structure.
+
+Contrast & Structure
+Paradox
+Seeming contradiction with truth.
+Irony
+Opposite of expectations.
+Antithesis
+Balanced contrast.
+Chiasmus
+Reversed sentence structure.
+
+Substitution Devices
+Synecdoche
+Part represents whole.
+Metonymy
+Related term substitutes for another.
+
+Sentence Style Devices
+Asyndeton
+No conjunctions.
+Polysyndeton
+Many conjunctions.
+Anecdote
+Short real story.
+
+
