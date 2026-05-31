@@ -1,0 +1,59 @@
+{
+    "questions": [
+        {
+            "question": "What is the primary difference between the preterite and the imperfect in Spanish?",
+            "choices": [
+                "The preterite is for ongoing actions, while the imperfect is for completed ones.",
+                "The preterite describes actions that definitely ended, while the imperfect describes ongoing actions with no specified end.",
+                "The preterite is used for future tense, while the imperfect is for past tense.",
+                "There is no functional difference between the two."
+            ],
+            "answerIndex": 1,
+            "explanation": "The preterite is used for actions that definitely ended at a specific time, whereas the imperfect describes ongoing actions in the past."
+        },
+        {
+            "question": "Which of the following scenarios is NOT a valid use of the preterite?",
+            "choices": [
+                "Actions that occurred during a specific period of time.",
+                "Actions viewed as single events.",
+                "Ongoing, habitual actions in the past.",
+                "Actions that were part of a chain of events."
+            ],
+            "answerIndex": 2,
+            "explanation": "Ongoing or habitual actions are typically expressed using the imperfect, not the preterite."
+        },
+        {
+            "question": "What is the correct 'yo' form conjugation for a regular AR verb in the preterite?",
+            "choices": [
+                "-ó",
+                "-í",
+                "-é",
+                "-aste"
+            ],
+            "answerIndex": 2,
+            "explanation": "The 'yo' ending for regular AR verbs in the preterite is -é."
+        },
+        {
+            "question": "How do you form the 'vosotros' form in the preterite?",
+            "choices": [
+                "It is the 'tú' form with -is added to the end.",
+                "It is the 'ellos' form with -is added to the end.",
+                "It follows the exact same pattern as the 'nosotros' form.",
+                "It uses the same stem as the 'yo' form."
+            ],
+            "answerIndex": 0,
+            "explanation": "The 'vosotros' form in the preterite is simply the 'tú' form with -is added to the end."
+        },
+        {
+            "question": "In the preterite, what is the spelling change for verbs ending in -gar in the first person singular (yo)?",
+            "choices": [
+                "-cé",
+                "-gué",
+                "-qué",
+                "-ié"
+            ],
+            "answerIndex": 1,
+            "explanation": "Verbs ending in -gar change the g to gu before adding the -é ending in the yo form to maintain the hard 'g' sound."
+        }
+    ]
+}

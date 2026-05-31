@@ -158,6 +158,11 @@ small {
   gap: 12px;
 }
 
+.logging-disclaimer {
+  color: #697382;
+  font-size: 10px;
+}
+
 .sample-button {
   border: 0;
   background: transparent;

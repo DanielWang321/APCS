@@ -1,0 +1,59 @@
+{
+    "questions": [
+        {
+            "question": "What is the primary difference between a class and an object in Java?",
+            "choices": [
+                "A class is an instance of an object.",
+                "A class defines attributes and behaviors, while an object is an instance of that class.",
+                "Objects are used to store state, while classes are used for loops.",
+                "Classes can change size, while objects have a fixed length."
+            ],
+            "answerIndex": 1,
+            "explanation": "A class acts as a blueprint or definition, while an object is the actual instance created from that blueprint."
+        },
+        {
+            "question": "Which of the following describes the purpose of a constructor in Java?",
+            "choices": [
+                "To define the behavior of an object.",
+                "To inherit methods from a superclass.",
+                "To initialize new objects.",
+                "To change the size of an ArrayList."
+            ],
+            "answerIndex": 2,
+            "explanation": "Constructors are special methods used to initialize new objects and have the same name as the class."
+        },
+        {
+            "question": "When is it most appropriate to use a for loop?",
+            "choices": [
+                "When the number of repetitions is known.",
+                "When the number of repetitions is unknown.",
+                "When you need to override a method.",
+                "When creating a new instance of a class."
+            ],
+            "answerIndex": 0,
+            "explanation": "A for loop is specifically used when the exact number of iterations is known ahead of time."
+        },
+        {
+            "question": "What is a key difference between an Array and an ArrayList?",
+            "choices": [
+                "Arrays use one-based indexing while ArrayLists use zero-based.",
+                "ArrayLists have a fixed length while Arrays can shrink.",
+                "Arrays have a fixed length while ArrayLists can grow or shrink.",
+                "ArrayLists cannot be used to store object states."
+            ],
+            "answerIndex": 2,
+            "explanation": "Arrays are static in size once initialized, whereas ArrayLists are dynamic and can change size."
+        },
+        {
+            "question": "What does method overriding allow a subclass to do?",
+            "choices": [
+                "Hide the state of the superclass.",
+                "Provide its own specific version of an inherited method.",
+                "Define a new class from scratch.",
+                "Change the number of repetitions in a loop."
+            ],
+            "answerIndex": 1,
+            "explanation": "Method overriding allows a subclass to replace or provide a custom implementation of a method inherited from its superclass."
+        }
+    ]
+}
