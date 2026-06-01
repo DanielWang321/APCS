@@ -1,3 +1,8 @@
+//needed to allow CORS requests from the frontend to the backend
+//need to allow GitHub Pages frontend to call Spring Boot backend
+//browsers usually block requests from one website to another unless CORS allows it
+//chatgpt generated this code for me
+
 package apcs.app;
 
 import org.springframework.context.annotation.Configuration;

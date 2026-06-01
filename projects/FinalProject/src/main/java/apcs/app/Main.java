@@ -1,4 +1,8 @@
 //Written completely by me unless specificied
+//used Gemini API docs: https://ai.google.dev/gemini-api/docs#java
+//used Spring Boot docs: https://docs.spring.io/spring-boot/docs/1.1.4.RELEASE/reference/html/getting-started-first-application.html
+//learned how to use Spring Boot and Gemini API from online sources and chatgpt, but all code was written by me
+
 package apcs.app;
 
 import java.io.File;

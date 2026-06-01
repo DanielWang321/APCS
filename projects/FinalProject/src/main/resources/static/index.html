@@ -152,7 +152,7 @@
           ? ""
           : "https://harvest-oversight-tropics.ngrok-free.dev";
 
-      //inspired by chatgpt - gave me an example
+      //Written by me; chatgpt gave me an example
       const response = await fetch(`${API_BASE}/api/message`, {
         method: "POST",
         headers: {
@@ -165,8 +165,10 @@
         })
       })
       const data = await response.json();
-
       currentQuiz = JSON.parse(data.reply);
+
+      //end of my code
+      //the rest written by chatgpt
       currentQuiz = normalizeQuiz(currentQuiz);
       currentQuestionIndex = 0;
       selectedAnswers = new Array(currentQuiz.questions.length).fill(null);
